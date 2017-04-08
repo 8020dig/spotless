@@ -1,0 +1,120 @@
+<?php
+/**
+ * Loads dynamic site part and outputs it as a JavaScript
+ */
+
+// don't display errors
+ini_set( 'display_errors', 0 );
+
+// set timezone
+date_default_timezone_set( 'UTC' );
+
+// set base dir
+define( 'URS_CONTENT_DATA_DIR', '../../../../uploads/site-data' );
+// define( 'URS_CONTENT_DATA_DIR', '/home/caralbgm/www/aecom-local/wp-content/uploads/site-data' );
+
+// set loader constant
+define( 'URS_LOADER', true );
+
+// sanitize part id
+$section = preg_replace( '/[^a-z0-9\-\_]*/', '', $_GET['section'] );
+
+// sanitize language
+$lang = preg_replace( '/[^a-z]*/', '', $_GET['lang'] );
+define( 'URS_LANG', $lang );
+
+// sanitize site id
+$site_id = ( isset( $_GET['site'] ) ?
+  (int) $_GET['site'] :
+  0
+);
+define( 'URS_SITE', $site_id );
+
+// send JSON header
+header( 'Content-Type: application/json;' );
+// minimize caching
+header( 'Cache-Control: max-age=30, must-revalidate' );
+
+// start output buffering
+ob_start();
+
+// include the file
+include $section . '.php';
+
+// get output buffer and output as JS
+$output = ob_get_clean();
+
+echo json_encode( array( 'html' => $output ) );
+
+function esc_js ( $text ) {
+  return str_replace("\n", '\n', str_replace('"', '\"', addcslashes(str_replace("\r", '', (string)$text), "\0..\37'\\"))); 
+}
+
+function esc_attr ( $text ) {
+  return htmlspecialchars( $text );
+}
+
+/**
+ * Helper functions
+ */
+
+$urs_content_data = array();
+$urs_content_memcache = false;
+
+/**
+ * Inits and returns Memcache object
+ */
+
+function urs_data_memcache_object () {
+  global $urs_content_memcache;
+
+  if ( !$urs_content_memcache ) {
+    $urs_content_memcache = new Memcache;
+    $urs_content_memcache->connect( 'localhost', 11211 );
+  }
+
+  return $urs_content_memcache;
+}
+
+function urs_data_memcache_get ( $key ) {
+  if ( $memcache = urs_data_memcache_object() ) {
+    return $memcache->get( $key );
+  }
+  return false;
+}
+
+function urs_dynamic_data_get ( $key, $context = 'common', $global = false ) {
+  global $urs_content_data, $site_id;
+  $path = urs_dynamic_data_path( $context, false, $global );
+
+  if ( $global ) {
+    $context = 'global_' . $context;
+    $memcache_key = $context . '__' . $key;
+  }
+  else {
+    $memcache_key = $site_id . '_' . $context . '__' . $key;
+  }
+
+  if ( !isset( $urs_content_data[$context][$key] ) ) {
+    // check Memcache first
+    if ( class_exists( 'Memcache' ) ) {
+      $value = urs_data_memcache_get( $memcache_key );
+      if ( $value ) {
+        $urs_content_data[$context][$key] = $value;
+        return $urs_content_data[$context][$key];
+      }
+    }
+
+    @include_once $path;
+  }
+
+  return isset( $urs_content_data[$context][$key] ) ? $urs_content_data[$context][$key] : false;
+}
+
+function urs_dynamic_data_path ( $context, $site_id = false, $global = false ) {
+  if ( $global )
+    $site_id = 'global';
+  elseif ( false === $site_id)
+    $site_id = URS_SITE;
+  return URS_CONTENT_DATA_DIR . '/' . $site_id . '_' . preg_replace( '/[^a-z]+/i', '', $context ) . '.php';
+}

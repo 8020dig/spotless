@@ -1,0 +1,953 @@
+/*
+Theme Name: Spotless Digital — Indigo Child MSC
+Author: Imago Digital
+Author URI: //imagodig.com
+Version: 1.0.0
+Template: indigo
+*/
+
+@import url("../indigo/style.css");
+
+/* pr-repo css combine 032517-1516 */
+
+
+/* style.css */
+body {background-color: #fff !important;}
+
+/* type */
+h1, h2, h3, h4, h5, h6, h7, h8 {
+	color: #1C538F;
+	font-weight: 400;
+ }
+
+/* header */
+.home #masthead {background: none !important;}
+
+#masthead {
+	height: 120px;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.5) 0%, rgba(255,255,255,0) 100%); /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,ffffff+100&0.5+0,0+100 */ /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0.5) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(0,0,0,0.5) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+ }
+
+.transparent-header .headroom--top.site-header .header-1st-row:after, .transparent-header.not-sticky-header .site-header .header-1st-row:after, .transparent-header .headroom--top.site-header .header-2nd-row:after, .transparent-header.not-sticky-header .site-header .header-2nd-row:after {border-bottom: none;}
+
+.header-1st-row {padding: 35px 60px 10px;}
+
+.big-header .page-inner-header {padding: 115px 100px;}
+
+@media only screen and (min-width: 960px) {.header-right .main-navigation .menu > li > a, .header-right .main-navigation .menu > ul > li > a}
+
+{}
+
+	.page-header .left-header .big-header {background-attachment: fixed;}
+
+	/* home */
+.page-id-15428 h1.logo-title {display: none;}
+
+	.page-id-15428 .header-right .main-navigation .menu > li > a, .header-right .main-navigation .menu > ul > li > a {
+		padding: 0 0 0 15px;
+		margin: 10px 0 0;
+		letter-spacing: .2em;
+		font: normal 400 .75em "din-2014", sans-serif !important;
+		text-shadow: none;
+		color: #195496 !important;
+	 }
+
+	.ticker {
+		position: absolute;
+		left: 340px;
+		padding: 0 0 0 15px;
+		margin: 10px 0 0;
+		letter-spacing: .2em;
+		font: normal 400 .75em "din-2014", sans-serif !important;
+		text-shadow: none;
+		color: #fff !important;
+	 }
+
+	.page-id-15428 .ticker {
+		position: absolute;
+		left: 0;
+		padding: 0 0 0 15px;
+		margin: 10px 0 0;
+		letter-spacing: .2em;
+		font: normal 400 .75em "din-2014", sans-serif !important;
+		text-shadow: none;
+		color: #195496 !important;
+	 }
+
+	.page-id-15428 .fa-search, .page-id-15428 .widgt-header-icon {color: #195496 !important;}
+
+#post-15409 {
+	height: 817px !important;
+	padding: 170px 40px 0 40px !important;
+	background-image: url('/wp-content/uploads/2017/03/home-hero-bg.jpg') !important;
+	background-repeat: no-repeat !important;
+	background-size: 1366px !important;
+	background-position: 0% 50% !important;
+ }
+
+#home-hero h1 {
+	font-size: 56px;
+	line-height: 1.3;
+	font-weight: 300;
+	color: #77A3D6;
+	letter-spacing: .05em;
+ }
+
+.home-hero-video video {padding-left: 100px;}
+
+.home-hero-logo {padding-bottom: 40px;}
+
+.home-hero-copy .arrows {margin-top: 66px;}
+
+.type-image .mod-content .inner-mod img {width: 100% !important;}
+
+/* leadership page bios */
+.bios-specs h2 {
+	font-size: 1em;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+ }
+
+.bios-specs h4 {
+	font-size: 1em;
+	font-weight: 300;
+	line-height: 1.2em;
+	margin: 15px 15px 0 0;
+	color: inherit;
+ }
+
+.bios-copy {
+	line-height: 1.5em;
+	color: inherit;
+ }
+
+	.bios-copy hr {
+		size: 1px;
+		margin-top: 45px;
+	 }
+
+.page-content table {
+	padding: 0px;
+	margin: 0px !important
+ }
+
+.page-content td {padding: 10px;}
+
+/* homepage services/sectors panel */
+#post-15523 {padding-bottom: 0;}
+
+	/*
+#post-15523 .mods-tabs-list li + li::before {
+    content: "|";
+    color: #1C538F !important;
+}
+*/
+#post-15523 .mods-tabs-list li {
+		color: #1C538F;
+		border-bottom: 0px;
+		font-size: 1.5em;
+	 }
+
+		#post-15523 .mods-tabs-list li a {
+			color: #1C538F;
+			border-bottom: 0px;
+			font-size: 1.5em;
+			font-weight: 300;
+		 }
+
+			#post-15523 .mods-tabs-list li a:hover, #post-15523 .mods-tabs-list li.current a {color: #70A6F7 !important;}
+
+	#post-15523 .mods-tabs-list {
+		padding: 25px 5px 25px 65px;
+		float: left;
+	 }
+
+	#post-15523 .inner-mod {width: 88%;}
+
+	#post-15523 .service-icon {
+		height: 65px;
+		width: 65px;
+	 }
+
+	#post-15523 .service-title {
+		width: 200px;
+		text-transform: uppercase;
+		font-size: .9em !important;
+		color: #70A6F7;
+	 }
+
+	#post-15523 .service-content {
+		width: 200px;
+		font-size: .8em !important;
+	 }
+
+	#post-15523 .service-content-wrapper {padding-left: 85px !important;}
+
+	#post-15523 .qbtn.service-link {
+		display: none;
+		!important
+	 }
+
+/* waypoint yellow */
+img.wp-image-16235 {
+	margin-left: 93px;
+	padding-bottom: 50px;
+ }
+
+/* homepage careers panel */
+.career-panel-title {
+	text-align: left;
+	font-size: 1.2em;
+	color: #FFFFFF;
+	padding-bottom: 25px;
+ }
+
+.career-panel-copy {
+	text-align: left;
+	width: 500px;
+	font-size: 2.4em;
+	line-height: 1.2em;
+	color: #FFF;
+	font-weight: 100;
+	letter-spacing: 2px;
+	padding-bottom: 20px;
+ }
+
+.slogan-content-wrapper {padding-top: 150px;}
+
+/* careers bg image */
+#post-15791 {
+	background-image: url('/wp-content/uploads/2017/03/hp_careers_bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 609px;
+	margin-left: 50px;
+	margin-bottom: 40px !important;
+ }
+
+/* careers CTA button */
+.qbtn {
+	border-radius: 0px;
+	!important
+ }
+
+a.qbtn {
+	border-radius: 0px;
+	!important
+ }
+
+.qbtn.slogan-call-to-action {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-size: 1.2em;
+	letter-spacing: 2px;
+	font-weight: 200px;
+ }
+
+/* homepage news panel */
+#post-15810 {
+	width: 92%;
+	padding: 0 0 140px 70px;
+ }
+
+	#post-15810 h1 {
+		font-size: 2.2em;
+		margin: 0px;
+		padding: 0px;
+		text-transform: uppercase;
+		font-weight: 300;
+	 }
+
+	#post-15810 .mod-header {
+		text-align: left;
+		margin-left: 0px;
+		padding: 0px 10px 10px 20px;
+	 }
+
+	#post-15810 .mod-content {margin: 20px;}
+
+	#post-15810 h1.entry-title {
+		font-size: 1em;
+		color: #7A7A77;
+	 }
+
+		#post-15810 h1.entry-title a {
+			font-size: .85em;
+			color: #7A7A77;
+			text-transform: none;
+		 }
+
+	#post-15810 .magazine-item .entry-thumbnail:hover {
+		zoom: 1;
+		filter: alpha(opacity=100);
+		opacity: 1;
+		background-image: url('/wp-content/uploads/2017/03/hover-news.png') !important;
+		background-size: cover;
+		background-position: center center;
+		background-blend-mode: multiply;
+	 }
+
+	#post-15810 .magazine-item .entry-thumbnail a:hover {
+		opacity: .25;
+		filter: alpha(opacity=25);
+	 }
+
+/* page layouts */
+.siderail-blue {
+	left: 0;
+	background-color: #70A6F7;
+	padding: 40px 30px 40px 70px;
+	width: 21%;
+	position: absolute;
+	color: #fff;
+	font-weight: 200;
+ }
+
+	.siderail-blue p {
+		font: normal 200 .9em/1.5em "din-2014", sans-serif !important;
+		margin-bottom: 13px;
+	 }
+
+.page-template-template-left-sidebar-php .page-content, .page-template-default .page-content, .page-template-template-centered .page-content {max-width: none !important;}
+
+.page-title {
+	text-transform: uppercase; /*     margin: 0 0 0 75px; */
+	font: normal 300 4em/1em "din-2014", sans-serif !important;
+	text-shadow: 0 0 20px #666, 0 0 40px #666, 0 0 60px #666, 0 0 80px #666, 0 0 140px #666, 0 0 160px #666, 0 0 200px #666, 0 0 300px #666;
+ }
+
+.type-slogan.size-giant .mod-content {padding: 20px 40px 40px 40px !important;}
+
+/* #post-18  */
+.mod-content {padding: 0 !important;}
+
+	/* #post-18  */
+.mod-content .inner-mod {max-width: 10000px !important;}
+
+/* about */
+.cta-history {
+	padding: 80px 0 !important;
+	margin: 0 -8%;
+ }
+
+/* msc */
+.post-type-archive #main {background-color: #fff;}
+
+.post-type-archive .page-wrapper {
+	padding: 30px 60px 60px;
+	background-color: #fff;
+ }
+
+.inner-archive {padding: 155px 100px 100px;}
+
+.archive-title {
+	text-transform: uppercase;
+	font: normal 300 4em/1em "din-2014", sans-serif !important;
+	color: #fff;
+	text-shadow: 0 0 20px #666, 0 0 40px #666, 0 0 60px #666, 0 0 80px #666, 0 0 140px #666, 0 0 160px #666, 0 0 200px #666, 0 0 300px #666;
+ }
+
+.archive-header {
+	background-size: contain;
+	background-position: center top;
+	background-attachment: fixed;
+	height: 362px;
+ }
+
+/*
+.post-type-archive-market .archive-header {background-image: url(/wp-content/uploads/2017/02/headers-template_sectors.jpg);}
+
+.post-type-archive-service .archive-header {background-image: url(/wp-content/uploads/2017/02/history.jpg);}
+
+.post-type-archive-project .archive-header {background-image: url(/wp-content/uploads/2017/02/about.jpg);}
+*/
+
+/* contracts */
+.single-project .entry-header {height: 362px;}
+
+/*
+.single-project .entry-title {
+    margin-top: 134px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #fff;
+    font: normal 300 3em/1em "din-2014", sans-serif !important;
+    text-shadow: 0 0 20px #666, 0 0 40px #666, 0 0 60px #666, 0 0 80px #666, 0 0 140px #666, 0 0 160px #666, 0 0 200px #666, 0 0 300px #666;
+
+}
+*/
+.single-project .entry-meta {display: none !important;}
+
+/*.single-project .single-wrapper .content-area,*/
+.single-project .single-wrapper,  .single-project .single-wrapper .entry-content {max-width: 2000px !important;}
+
+.single-project .featured-image-container {
+	background-color: #1D5693;
+	padding: 24px 100px 0; /*
+    background-image: url('/wp-content/uploads/2017/03/bg-project-header.png');
+    background-size: contain;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+*/
+ }
+
+.single-service .featured-image-container, .single-market .featured-image-container {padding: 24px 100px 0;}
+
+.single-project .featured-image-container h1, .single-service .featured-image-container h1, .single-market .featured-image-container h1 {
+	text-transform: uppercase;
+	font: normal normal 3em/1em "din-2014", sans-serif !important;
+	color: #fff;
+	text-shadow: 0 0 20px #666, 0 0 40px #666, 0 0 60px #666, 0 0 80px #666, 0 0 140px #666, 0 0 160px #666, 0 0 200px #666, 0 0 300px #666;
+	text-align: left;
+ }
+
+.single-project #primary h1 {
+	font: normal 400 30px/45px "din-2014", sans-serif !important;
+	color: #434343;
+ }
+
+.nav-links {display: none;}
+
+.related-content h1 {
+	padding-top: 40px;
+	font-size: 30px;
+ }
+
+.related-item h1 {padding-top: 0;}
+
+.related-item .entry-summary {display: none;}
+
+/* contact */
+.contact p {font: normal 200 .9em/2em "din-2014", sans-serif !important;}
+
+/* content grids */
+#grid .entry-summary {
+	height: 47px;
+	line-height: 1.5em;
+	white-space: normal;
+	overflow: hidden;
+ }
+
+/* footer */
+.site-footer {
+	background-color: #F2F2F2 !important; /*
+    background-image: url('/wp-content/uploads/2017/03/footer.jpg');
+    height: 350px;
+    background-size: cover;
+*/
+	color: #6E6E6E;
+ }
+
+.inner-footer {background: none !important;}
+
+.site-info {display: none;}
+
+.footer-logo {
+	width: 283px;
+	height: 53px;
+ }
+
+.footer-copy, .site-footer a {
+	font: normal 300 1.4em/1.8em "din-2014", sans-serif !important;
+	width: 75% !important;
+	margin-top: 12px !important;
+	color: #6E6E6E !important;
+ }
+
+.site-footer a {margin-top: 0 !important;}
+
+#menu-footer-links {
+	background-image: url('/wp-content/uploads/2017/03/footer-sep.png');
+	background-position-x: 0px;
+	background-repeat: no-repeat;
+	padding-left: 40px;
+	background-size: 2px 211px;
+ }
+
+#menu-footer-social {text-align: right;}
+
+.footer-fb a {
+	background-image: url('/wp-content/uploads/2017/03/social-facebook.png');
+	background-size: 35px 35px;
+	background-repeat: no-repeat !important;
+	background-position-x: right;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+ }
+
+.footer-tw a {
+	background-image: url('/wp-content/uploads/2017/03/social-twitter.png');
+	background-size: 35px 35px;
+	background-repeat: no-repeat !important;
+	background-position-x: right;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+ }
+
+.footer-li a {
+	background-image: url('/wp-content/uploads/2017/03/social-linkedin.png');
+	background-size: 35px 35px;
+	background-repeat: no-repeat !important;
+	background-position-x: right;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+ }
+
+.footer-yt a {
+	background-image: url('/wp-content/uploads/2017/03/social-youtube.png');
+	background-size: 35px 35px;
+	background-repeat: no-repeat !important;
+	background-position-x: right;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+ }
+
+.bottom-footer {display: none !important;}
+
+/*===========================================   nav menu fix =========================*/
+/*style of nav menu*/
+.menu-wrapper ul {
+	margin: 0 0 0 20px;
+	width: 100%;
+	z-index: 1000; /* display: inline-block; */
+ }
+
+.menu-wrapper li {
+	list-style: none;
+	display: inline-table;
+	position: relative;
+	background: transparent;
+ }
+
+	.menu-wrapper li a {
+		padding: 20px 20px;
+		display: inline-block;
+		color: gray;
+		text-transform: uppercase;
+	 }
+
+		.menu-wrapper li a:hover {
+			padding: 20px 20px;
+			display: inline-block;
+			color: rgb(112, 166, 247);
+		 }
+
+	.menu-wrapper li.active a {color: #b3d0fb !important;}
+
+	.menu-wrapper li .children {display: none;}
+
+/*.menu-wrapper .menu li .children li .sub-menu{
+    left: 100%;
+    top: 0;
+}
+.menu-wrapper .menu li .children li:hover .sub-menu{
+    display: block;
+}
+.menu-wrapper .menu>li:hover>.sub-menu{
+    display:block;
+    position: absolute;
+    left: 0;
+    /* top: 0; */
+/*}
+.menu-wrapper li .children li{
+    display: block;
+    width: 300px;
+}*/
+/*=======================================   Main Menu fix  =====================*/
+.home .header-right .main-navigation .menu > li.menu-item.menu-item-object-page a {border-left: 1px solid #1d5694;}
+
+.header-right .main-navigation .menu > li.menu-item.menu-item-object-page a {
+	border-left: 1px solid white;
+	padding-left: 20px;
+ }
+
+ul#menu-main-menu li:first-child a {border-left: none;}
+
+.wl-last-price-div {display: inline-block;}
+
+span.fa-icon_info {padding-left: 15px;}
+
+li#tab1 a {
+	border-left: 2px solid #1C538F;
+	padding: 4px 0 5px 27px;
+ }
+
+/* ==================== add the brand image size fix ============================*/
+.brand img {
+	height: 75px;
+	width: auto;
+	max-height: 75px;
+ }
+
+/* ==================== remove the top search form ===================*/
+.header-search.search-open {top: 0;}
+
+.single-market .site-main .featured-image-container, .single-project .site-main .featured-image-container, .single-service .site-main .featured-image-container {
+	padding-top: 240px;
+	margin-top: 0 !important;
+	padding-top: 172px !important;
+	height: 80px !important;
+	padding-bottom: 55px;
+ }
+
+.single-market .featured-image-container h1, .single-project .featured-image-container h1, .single-service .featured-image-container h1 {padding-top: 0;}
+
+.single-market .featured-image-container h1 a, .single-project .featured-image-container h1 a, .single-service .featured-image-container h1 a {
+	position: absolute;
+	color: white;
+	font-size: 16px;
+	text-shadow: none;
+	text-transform: none;
+	top: -13px;
+	letter-spacing: 3px;
+	cursor: pointer;
+	line-height: 2px;
+ }
+
+.back-parent span {
+	letter-spacing: 1px;
+	display: block;
+	float: left;
+	width: auto;
+ }
+
+.single-project .site-main .featured-image-container h1 {text-shadow: none !important;}
+
+.page .back_page {
+	color: white;
+	font-size: 15px;
+	letter-spacing: 3px;
+	position: absolute;
+	left: 0;
+	top: -10px;
+	text-shadow: none;
+	line-height: 2px;
+ }
+
+.big-header .page-title {position: relative;}
+
+/* custom-style.css */
+/** FILTER BAR, CONTEXTUAL UI **/
+.filter-bar {
+	min-width: 1280px;
+	width: 90%;
+	margin: 0 auto;
+ }
+
+	.filter-bar .filters {display: inline-block;}
+
+	.filter-bar .search {display: inline-block;}
+
+	.filter-bar .filter {
+		display: inline-block;
+		position: relative;
+		min-width: 220px;
+		margin-right: 20px;
+	 }
+
+	.filter-bar .ae-dropdown-toggle {
+		color: #434343;
+		font: normal 300 13px "din-2014", sans-serif !important;
+		text-transform: uppercase;
+		letter-spacing: .075em;
+	 }
+
+	.filter-bar .filter > h3 {
+		cursor: pointer;
+		background-color: #EAE9E4;
+		padding: 2px 20px 10px 20px;
+	 }
+
+.ae-dropdown .ae-dropdown-content {
+	display: none;
+	font: normal 300 13px/24px "din-2014", sans-serif !important;
+	letter-spacing: .075em;
+	background-color: #F8F7F3 !important;
+	border: none !important;
+	border-radius: 0 !important;
+	color: #434343;
+	min-width: 250px;
+	position: absolute;
+	padding: 15px;
+	z-index: 10;
+ }
+
+	.ae-dropdown .ae-dropdown-content a {cursor: pointer;}
+
+	.ae-dropdown .ae-dropdown-content ul {
+		list-style: none;
+		margin: 0;
+	 }
+
+.filter-bar .filter:hover .ae-dropdown-content {display: inline-block;}
+
+.filter-bar .search input[type="search"] {
+	font: normal 300 13px "din-2014", sans-serif !important;
+	letter-spacing: .075em;
+	background-color: #F8F7F3 !important;
+	border: none !important;
+	border-radius: 0 !important;
+	padding: 2px 20px 4px 20px !important;
+	height: 49px;
+	margin: -5px 10px 0 20px !important;
+	color: #434343;
+ }
+
+.filter-bar input[type="submit"], .meta-nav a {
+	font: normal 300 13px "din-2014", sans-serif !important;
+	letter-spacing: .075em;
+	background-color: #F8F7F3 !important;
+	border: none !important;
+	border-radius: 0 !important;
+	padding: 2px 20px 4px 20px !important;
+	height: 49px;
+	margin-top: -5px;
+	color: #434343 !important;
+ }
+
+.paging-navigation a {
+	color: #434343 !important;
+	padding: 20px !important;
+	height: 18px !important;
+ }
+
+/** SINGLE **/
+.post-type-archive .archive-header {padding: 0 !important;}
+
+	.post-type-archive .archive-header .inner-archive {max-width: none !important;}
+
+.single-market .featured-image-container, .featured-image-container {
+	background-size: cover;
+	height: 362px !important;
+	margin-top: -79px !important;
+ }
+
+.featured-image-container {position: relative;}
+
+	.featured-image-container h1 {
+		font-size: 2.5em;
+		padding-top: 200px;
+		color: #FFF;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-align: center;
+		position: relative;
+		z-index: 5;
+	 }
+
+/**
+ * I can not use the theme sidebar due to it is not displayed at right side. The best would be check why the sidebar doesn't work correctly but there is no time for that.
+ * Sidebar styles are temporal and it requires to modify HTML structure to build it in a better way.
+ */
+@media (min-width: 1200px) {.aecom-sidebar}
+
+{}
+
+	/** PROJECT, MARKET AND SERVICE ARCHIVE **/
+.post-type-archive-market .lander-entry-content,
+.post-type-archive-service .lander-entry-content,
+.post-type-archive-project .lander-entry-content {margin-top: 40px;}
+
+	.post-type-archive-market .blog-masonry article,
+.post-type-archive-service .blog-masonry article,
+.post-type-archive-project .blog-masonry article {background-color: #F5F4EF;}
+
+	.post-type-archive-market .blog-masonry article header h1,
+.post-type-archive-service .blog-masonry article header h1,
+.post-type-archive-project .blog-masonry article header h1 {
+		text-transform: uppercase;
+		width: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	 }
+
+	.post-type-archive-market .blog-masonry .entry-summary,
+.post-type-archive-service .blog-masonry .entry-summary,
+.post-type-archive-project .blog-masonry .entry-summary {
+		width: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		margin-top: 0;
+	 }
+
+	/** RELATED PROJECTS **/
+.related-projects .blog-masonry article {background-color: #F5F4EF;}
+
+		.related-projects .blog-masonry article .entry-header {overflow: visible;}
+
+		.related-projects .blog-masonry article header h1 {
+			text-transform: uppercase;
+			width: 100%;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		 }
+
+		.related-projects .blog-masonry article .entry-header img {
+			position: static;
+			max-width: 100%;
+			min-width: 0px;
+			min-height: 0px;
+			-moz-transform: none;
+			-webkit-transform: none;
+			-o-transform: none;
+			-ms-transform: none;
+			transform: none;
+		 }
+
+	/** PROJECT META INFO BOX */
+/* ///////////////// JTF: Layout of this piece needs to be redone, columns need to be uniform; hard coded spcific widths for client and location for now  ///////////////// */
+.project-meta-info {
+		color: #434343;
+		text-transform: uppercase;
+		letter-spacing: .02em;
+	 }
+
+		.project-meta-info h2 {
+			font-size: 1.1em;
+			letter-spacing: .05em;
+			color: #70A6F7;
+		 }
+
+		.project-meta-info .project-data-container,
+.project-meta-info .services-container,
+.project-meta-info .brands-container {margin-bottom: 25px;}
+
+		.project-meta-info .locations-container::after,
+.project-meta-info .client-container::after {
+			display: table;
+			clear: both;
+			content: " ";
+		 }
+
+		.project-meta-info .client-container .client-title,
+.project-meta-info .locations-container .locations-title {
+			float: left;
+			width: 30%;
+		 }
+
+		.project-meta-info .locations-container .locations-list,
+.project-meta-info .client-container .client-name {
+			float: left;
+			width: 70%;
+		 }
+
+		.project-meta-info .brands-container::after {
+			clear: both;
+			display: table;
+			content: " ";
+		 }
+
+		.project-meta-info .brands-container .brand {
+			float: left;
+			margin-right: 10px;
+		 }
+
+	/** PROJECT SINGLE TEMPLATE */
+.single.single-project .site-main .content-area {
+		float: right;
+		width: 66%; /*width: 71%;
+	max-width: 872px;*/
+		max-width: 700px;
+	 }
+
+	.single.single-project .site-main .widget-area {float: left;}
+
+	.content-featured-image {padding-bottom: 50px;}
+
+	/*======================  dropdown location style =============================*/
+.ae-dropdown-content.location ul li:first-child {
+		padding-left: 0;
+		font-weight: 600;
+	 }
+
+	.ae-dropdown-content.location ul li {
+		width: 100%;
+		float: left;
+		padding-left: 10px;
+	 }
+
+	/*.ae-dropdown-content.location ul {
+    width: 50%;
+    float: left;
+}*/
+.ae-dropdown .ae-dropdown-content.location {min-width: 210px;}
+
+/* theme options */
+/* general */
+a, a:visited {color: #70A6F7;}
+
+a: hover {
+	color: #1D5693;
+	text-decoration: underline;
+ }
+
+. ae-dropdown-content a {text-decoration: underline;}
+
+.page-id-15428 .ticker .fa-icon_info {color: #FFDD00 !important;}
+
+.menu-wrapper li a {
+	padding: 20px 20px;
+	display: inline-block;
+	color: gray;
+	text-transform: uppercase;
+	font: normal 300 .83em/1em "din-2014", sans-serif !important;
+	letter-spacing: .05em;
+ }
+
+#post-15523 .mods-tabs-list li a {
+	color: #c1d4f1;
+	border-bottom: 0px;
+	font-size: 1.5em;
+ }
+
+#post-15523 .mods-tabs-list li.current a {color: #1C538F!important;}
+
+#post-15810 .magazine-item .entry-thumbnail:hover {
+	zoom: 1;
+	filter: alpha(opacity=100);
+	opacity: 1;
+	background-image: url('/wp-content/uploads/2017/03/hover-news.png') !important;
+	background-size: cover;
+	background-position: -10px -20px;
+	background-blend-mode: multiply;
+ }
+
+.inner-footer {padding: 40px 100px;}
+
+#menu-footer-social {padding-top: 10px;}
+
+.blog-style-masonry .entry-title {
+	font-size: 1em;
+	line-height: 1.2em;
+	white-space: normal !important;
+	height: 2.7em;
+ }
+
+.single-project .featured-image-container {
+	background-size: cover;
+	height: 312px !important;
+	margin-top: -79px !important;
+	padding: 3px 100px 0;
+ }
+
+.project-meta-info .project-data-container, .project-meta-info .services-container, .project-meta-info .brands-container {margin-bottom: 35px;}
+
+.project-meta-info h2 {margin-bottom: 10px;}
+
+.brand img {
+	height: auto;
+	max-width: 200px;
+ }

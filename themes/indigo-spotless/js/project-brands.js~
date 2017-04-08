@@ -1,0 +1,69 @@
+/**
+ * Handle feature to add articles in the publication.
+ */
+jQuery(document).ready(function(){
+  //get HTML template for article items
+  let template = wp.template("article-list-item");
+
+  //get meta box to add articles in the publication
+  let meta_box = jQuery("#publication-articles");
+  
+  //get sortable list of articles added in the publication
+  let articles_added = meta_box.find("ul:first");
+  
+  //get selector list of articles
+  let articles_selector = meta_box.find("select:first");
+  
+  //get button to add articles in the publication
+  let add_button = meta_box.find(".posts-adder:first");
+  
+  //add listener to button
+  add_button.click(function(){
+    add_article_in_publication();
+    return false;
+  });
+  
+  articles_selector.dblclick(function(e){
+    //check if click is on an option item
+    if("option" != e.target.tagName.toLowerCase())
+      return false;
+    
+    //add article in publications
+    add_article_in_publication();
+    return false;
+  });
+  
+  //add listener to deletion buttons in articles added in publication
+  articles_added.click(function(e){
+    //check if click was on deletion button
+    if(-1 != e.target.className.indexOf("remove-post")){
+      //add option in selector
+      let item = jQuery(e.target).parents("li:first");
+      articles_selector.append("<option value='" + item.find("input:first").val() + "'>" + item.find("label").text() + "</option>");
+      
+      //show selector if it is hidden, it is when there is no options when page is loaded
+      articles_selector.show();
+    }
+  });
+  
+  /**
+   * This function gets the articles selected in the selector and add them in the publication.
+   */
+  function add_article_in_publication(){
+    //get selected items in selector
+    let articles_selected = articles_selector.val();
+  
+    //add article to list
+    for(let i in articles_selected){
+      let option_selected = articles_selector.find("option[value='" + articles_selected[i] + "']");
+      articles_added.append(template({
+        id: articles_selected[i],
+        title: option_selected.text()
+      }));
+      
+      //remove option in selector
+      option_selected.remove();
+    }
+  }
+});
+

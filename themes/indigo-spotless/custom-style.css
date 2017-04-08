@@ -1,0 +1,304 @@
+/**
+ * It would be great using SASS but we are working under FTP and there is no repository. Due to time is priority, it would take me more time compiling and copying files manually, so unfortunately I've decided work with plain CSS.
+ */
+
+
+/** FILTER BAR, CONTEXTUAL UI **/
+.filter-bar {
+	min-width: 1280px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.filter-bar .filters {
+  display: inline-block;
+}
+.filter-bar .search {
+  display: inline-block;
+}
+
+.filter-bar .filter {
+  display: inline-block;
+  position: relative;
+  min-width: 220px;
+  margin-right: 20px;
+}
+
+.filter-bar .ae-dropdown-toggle {
+    color: #434343;
+    font: normal 300 13px "din-2014", sans-serif !important;
+    text-transform: uppercase;
+    letter-spacing: .075em;
+}
+
+.filter-bar .filter > h3 {
+  cursor: pointer;
+  background-color: #EAE9E4;
+  padding: 2px 20px 10px 20px;
+}
+
+.ae-dropdown .ae-dropdown-content {
+  display: none;
+
+    font: normal 300 13px/24px "din-2014", sans-serif !important;
+    letter-spacing: .075em;
+    background-color: #F8F7F3 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    color: #434343;
+  min-width: 250px;
+  position: absolute;
+  padding: 15px;
+  z-index: 10;
+}
+
+.ae-dropdown .ae-dropdown-content a {
+  cursor: pointer;
+}
+
+.ae-dropdown .ae-dropdown-content ul {
+  list-style: none;
+  margin: 0;
+}
+
+.filter-bar .filter:hover .ae-dropdown-content {
+  display: inline-block;
+}
+
+.filter-bar .search input[type="search"] {
+    font: normal 300 13px "din-2014", sans-serif !important;
+    letter-spacing: .075em;
+    background-color: #F8F7F3 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 2px 20px 4px 20px !important;
+    height: 49px;
+    margin: -5px 10px 0 20px !important;
+    color: #434343;
+}
+
+.filter-bar input[type="submit"], .meta-nav a {
+    font: normal 300 13px "din-2014", sans-serif !important;
+    letter-spacing: .075em;
+    background-color: #F8F7F3 !important;
+    border: none !important;
+    border-radius: 0 !important;
+    padding: 2px 20px 4px 20px !important;
+    height: 49px;
+    margin-top: -5px;
+    color: #434343 !important;
+}
+
+.paging-navigation a {
+    color: #434343 !important;
+    padding: 20px !important;
+    height: 18px !important;
+}
+
+/** SINGLE **/
+
+.post-type-archive .archive-header {
+	padding: 0 !important;
+}
+
+.post-type-archive .archive-header .inner-archive {
+	max-width: none !important;
+}
+
+.single-market .featured-image-container, .featured-image-container {
+    background-size: cover;
+    height: 362px !important;
+    margin-top: -79px !important;
+}
+
+.featured-image-container {
+	position: relative;
+}
+
+.featured-image-container h1 {
+	font-size: 2.5em;
+	padding-top: 200px;
+	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+	z-index: 5;
+}
+
+/**
+ * I can not use the theme sidebar due to it is not displayed at right side. The best would be check why the sidebar doesn't work correctly but there is no time for that.
+ * Sidebar styles are temporal and it requires to modify HTML structure to build it in a better way.
+ */
+
+@media (min-width: 1200px) {
+  .aecom-sidebar {
+    position: absolute;
+    right: 0;
+    width: 300px;
+  }
+}
+
+/** PROJECT, MARKET AND SERVICE ARCHIVE **/
+.post-type-archive-market .lander-entry-content,
+.post-type-archive-service .lander-entry-content,
+.post-type-archive-project .lander-entry-content {
+  margin-top: 40px;
+}
+
+.post-type-archive-market .blog-masonry article,
+.post-type-archive-service .blog-masonry article,
+.post-type-archive-project .blog-masonry article {
+  background-color: #F5F4EF;
+}
+
+.post-type-archive-market .blog-masonry article header h1,
+.post-type-archive-service .blog-masonry article header h1,
+.post-type-archive-project .blog-masonry article header h1 {
+  text-transform: uppercase;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.post-type-archive-market .blog-masonry .entry-summary,
+.post-type-archive-service .blog-masonry .entry-summary,
+.post-type-archive-project .blog-masonry .entry-summary {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 0;
+}
+
+/** RELATED PROJECTS **/
+.related-projects .blog-masonry article {
+  background-color: #F5F4EF;
+}
+
+.related-projects .blog-masonry article .entry-header {
+  overflow: visible;
+}
+
+.related-projects .blog-masonry article header h1 {
+  text-transform: uppercase;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.related-projects .blog-masonry article .entry-header img {
+  position: static;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0px;
+  min-height: 0px;
+  max-height: 300px;
+  -moz-transform: none;
+	-webkit-transform: none;
+	-o-transform: none;
+	-ms-transform: none;
+	transform: none;
+}
+
+/** MARGET META INFO BOX */
+.market-meta-info h2 {
+    font-size: 1.1em;
+    letter-spacing: .05em;
+    color: #70A6F7;
+}
+/** SERVICE META INFO BOX */
+.service-meta-info h2 {
+    font-size: 1.1em;
+    letter-spacing: .05em;
+    color: #70A6F7;
+}
+/** PROJECT META INFO BOX */
+
+/* ///////////////// JTF: Layout of this piece needs to be redone, columns need to be uniform; hard coded spcific widths for client and location for now  ///////////////// */
+.project-meta-info {
+	color: #434343;
+	text-transform: uppercase;
+	letter-spacing: .02em;
+}
+
+.project-meta-info h2 {
+    font-size: 1.1em;
+    letter-spacing: .05em;
+    color: #70A6F7;
+}
+
+.project-meta-info .project-data-container,
+.project-meta-info .services-container,
+.project-meta-info .brands-container {
+	margin-bottom: 25px;
+}
+
+.project-meta-info .locations-container::after,
+.project-meta-info .client-container::after {
+	display: table;
+	clear: both;
+	content: " ";
+}
+
+.project-meta-info .client-container .client-title,
+.project-meta-info .locations-container .locations-title {
+	float: left;
+	width: 30%;
+}
+
+.project-meta-info .locations-container .locations-list,
+.project-meta-info .client-container .client-name {
+	float: left;
+	width: 70%;
+}
+
+.project-meta-info .brands-container::after {
+	clear: both;
+	display: table;
+	content: " ";
+}
+
+.project-meta-info .brands-container .brand {
+	float: left;
+	margin-right: 10px;
+}
+
+/** PROJECT SINGLE TEMPLATE */
+.single.single-project .site-main .content-area, .single.single-market .site-main .content-area, .single.single-service .site-main .content-area {
+	float: right;
+	/*width: 71%;
+	max-width: 872px;*/
+	width: 66%;
+	max-width: 700px;
+}
+
+.single.single-project .site-main .widget-area, .single.single-market .site-main .widget-area, .single.single-service .site-main .widget-area {
+	float: left;
+}
+
+.content-featured-image {
+	padding-bottom: 50px;
+}
+
+/*======================  dropdown location style =============================*/
+.ae-dropdown-content.location ul li:first-child {
+    padding-left: 0;
+    font-weight: 600;
+}
+
+.ae-dropdown-content.location ul li {
+    width: 100%;
+    float: left;
+   padding-left: 10px;
+}
+
+/*.ae-dropdown-content.location ul {
+    width: 50%;
+    float: left;
+}*/
+.ae-dropdown .ae-dropdown-content.location {
+    min-width: 210px;
+}

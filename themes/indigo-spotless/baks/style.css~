@@ -1,0 +1,505 @@
+/*
+Theme Name: Spotless Digital — Indigo Child MSC
+Author: Imago Digital
+Author URI: //imagodig.com
+Version: 1.0.0
+Template: indigo
+*/
+
+@import url("../indigo/style.css");
+
+body {
+	background-color: #fff !important;
+}
+
+/* type */
+
+h1, h2, h3, h4, h5, h6, h7, h8 {
+	color: #1C538F;
+	font-weight: 400;
+}
+
+
+/* header */
+
+.home #masthead {
+background: none !important;
+}
+
+#masthead {
+	height: 120px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,ffffff+100&0.5+0,0+100 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.5) 0%, rgba(255,255,255,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.5) 0%,rgba(255,255,255,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.5) 0%,rgba(255,255,255,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80000000', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.transparent-header .headroom--top.site-header .header-1st-row:after, .transparent-header.not-sticky-header .site-header .header-1st-row:after, .transparent-header .headroom--top.site-header .header-2nd-row:after, .transparent-header.not-sticky-header .site-header .header-2nd-row:after {
+	border-bottom: none;
+}
+
+.header-1st-row {
+    padding: 35px 60px 10px;
+}
+
+.big-header .page-inner-header {
+    padding: 115px 100px;
+}
+
+@media only screen and (min-width: 960px) {
+.header-right .main-navigation .menu > li > a, .header-right .main-navigation .menu > ul > li > a {
+    padding: 0 0 0 15px;
+    margin: 10px 0 0;
+    letter-spacing: .2em;
+    font: normal 400 .75em "din-2014", sans-serif !important;
+    text-shadow: 0 0 10px #333, 0 0 20px #333;
+	}
+}
+
+.page-header .left-header .big-header {
+    background-attachment: fixed;
+}
+
+/* home */
+
+.page-id-15428 h1.logo-title {
+	display: none;
+}
+
+.page-id-15428 .header-right .main-navigation .menu > li > a, .header-right .main-navigation .menu > ul > li > a {
+    padding: 0 0 0 15px;
+    margin: 10px 0 0;
+    letter-spacing: .2em;
+    font: normal 400 .75em "din-2014", sans-serif !important;
+    text-shadow: none;
+    color: #195496 !important;
+}
+	
+
+.ticker {
+    position: absolute;
+    left: 340px;
+    padding: 0 0 0 15px;
+    margin: 10px 0 0;
+    letter-spacing: .2em;
+    font: normal 400 .75em "din-2014", sans-serif !important;
+    text-shadow: none;
+    color: #fff !important;
+}
+
+.page-id-15428 .ticker {
+    position: absolute;
+    left: 0;
+    padding: 0 0 0 15px;
+    margin: 10px 0 0;
+    letter-spacing: .2em;
+    font: normal 400 .75em "din-2014", sans-serif !important;
+    text-shadow: none;
+    color: #195496 !important;
+}
+
+.page-id-15428 .fa-search, .page-id-15428 .widgt-header-icon {
+	color: #195496 !important;
+}
+
+#post-15409 {
+    height: 817px !important;
+    padding: 170px 40px 0 40px !important;
+    background-image: url(http://spotless-staging.com/wp-content/uploads/2017/03/home-hero-bg.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: 1366px  !important;
+    background-position: 0% 50% !important;
+}
+
+#home-hero h1 {
+    font-size: 56px;
+    line-height: 1.3;
+    font-weight: 300;
+    color: #77A3D6;
+    letter-spacing: .05em;
+}
+
+.home-hero-video video {
+	padding-left: 100px;
+}
+
+.home-hero-logo {
+	padding-bottom: 40px;
+}
+
+.home-hero-copy .arrows {
+    margin-top: 66px;
+}
+
+.type-image .mod-content .inner-mod img {
+	width: 100% !important;
+}
+/* page layouts */
+
+.siderail-blue {
+    left: 0;
+    background-color: #70A6F7;
+    padding: 40px 30px 40px 70px;
+    width: 21%;
+    position: absolute;
+    color: #fff;
+    font-weight: 200;
+}
+
+.siderail-blue p {
+	font: normal 200 .9em/1.5em "din-2014", sans-serif !important;
+	margin-bottom: 13px;
+}
+
+/*.widget-area {
+    float: left;
+    left: 0;
+    width: 21%;
+    margin-left: -60px;
+    padding: 18px 56px 18px 56px;
+/*     background-color: #70A6F7; *
+    color: #70A6F7;
+    min-width: 300px;
+}*/
+
+.widget-title {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.content-area {
+    float: right;
+    width: 71%;
+    max-width: 872px;
+}
+
+.page-template-template-left-sidebar-php .page-content, .page-template-default .page-content, .page-template-template-centered .page-content {
+    max-width: none !important;
+}
+
+.page-title {
+/*     margin: 0 0 0 75px; */
+    text-transform: uppercase;
+    font: normal 300 4em/1em "din-2014", sans-serif !important;
+    text-shadow: 0 0 20px #666, 0 0 40px #666, 0 0 60px #666, 0 0 80px #666, 0 0 140px #666, 0 0 160px #666, 0 0 200px #666, 0 0 300px #666;
+}
+
+.type-slogan.size-giant .mod-content {
+    padding: 20px 40px 40px 40px !important;
+}
+
+/* #post-18  */.mod-content {
+padding: 0 !important;
+}
+
+/* #post-18  */.mod-content .inner-mod {
+max-width: 10000px !important;
+}
+/* about */
+.cta-history {
+	padding: 80px 0 !important;
+    margin: 0 -8%;
+}
+
+/* msc */
+
+.post-type-archive #main {
+	background-color: #fff;
+}
+
+.post-type-archive .page-wrapper {
+    padding: 30px 60px 60px;
+    background-color: #fff;
+}
+
+.inner-archive {
+    padding: 155px 100px 100px;
+}
+
+.archive-title {
+    text-transform: uppercase;
+    font: normal 300 4em/1em "din-2014", sans-serif !important;
+    color: #fff;
+    text-shadow: 0 0 20px #666, 0 0 40px #666, 0 0 60px #666, 0 0 80px #666, 0 0 140px #666, 0 0 160px #666, 0 0 200px #666, 0 0 300px #666;
+}
+
+.archive-header {
+    background-size: contain;
+    background-position: center top;
+    background-attachment: fixed;
+    height: 362px;
+}
+
+.post-type-archive-market .archive-header {
+    background-image: url(/wp-content/uploads/2017/02/headers-template_sectors.jpg);
+}
+
+.post-type-archive-service .archive-header {
+    background-image: url(/wp-content/uploads/2017/02/history.jpg);
+}
+
+.post-type-archive-project .archive-header {
+    background-image: url(/wp-content/uploads/2017/02/about.jpg);
+}
+
+/* contracts */
+
+.single-project .entry-header {
+    height: 362px;
+}
+
+/*
+.single-project .entry-title {
+    margin-top: 134px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #fff;
+    font: normal 300 3em/1em "din-2014", sans-serif !important;
+    text-shadow: 0 0 20px #666, 0 0 40px #666, 0 0 60px #666, 0 0 80px #666, 0 0 140px #666, 0 0 160px #666, 0 0 200px #666, 0 0 300px #666;
+
+}
+*/
+
+.single-project .entry-meta {
+	display: none !important;
+}
+
+.single-project .single-wrapper, /*.single-project .single-wrapper .content-area,*/ .single-project .single-wrapper .entry-content {
+	max-width: 2000px !important;
+}
+
+.single-project .featured-image-container {
+	background-color: #1D5693;
+/*
+	background-image: url('/wp-content/uploads/2017/03/bg-project-header.png');
+	background-size: contain;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+*/
+	padding: 24px 100px 0;
+}
+
+.single-service .featured-image-container, .single-market .featured-image-container {
+	padding: 24px 100px 0;
+}
+
+.single-project .featured-image-container h1, .single-service .featured-image-container h1, .single-market .featured-image-container h1 {
+    text-transform: uppercase;
+    font: normal normal 3em/1em "din-2014", sans-serif !important;
+    color: #fff;
+    text-shadow: 0 0 20px #666, 0 0 40px #666, 0 0 60px #666, 0 0 80px #666, 0 0 140px #666, 0 0 160px #666, 0 0 200px #666, 0 0 300px #666;
+    text-align: left;
+}
+
+.single-project #primary h1 {
+	font: normal 400 30px/45px "din-2014", sans-serif !important;
+	color: #434343;
+}
+
+.single-project .nav-links {
+	display: none;
+}
+
+.related-content h1 {
+	padding-top: 40px;
+	font-size: 30px;
+}
+
+.related-item h1 {
+	padding-top: 0;
+}
+
+.related-item .entry-summary {
+	display: none;
+}
+
+/* contact */
+
+.contact p {
+font: normal 200 .9em/2em "din-2014", sans-serif !important;
+}
+
+
+/* footer */
+.site-footer, .site-footer .widget select {
+    /* color: #8d8d8d; */
+    background-image: url(/wp-content/uploads/2017/03/footer.jpg);
+    height: 350px;
+    background-size: cover;
+}
+
+.site-info {
+	display: none;
+}
+
+/* GARLAND */
+/* leadership page bios */
+
+.bios-specs h2 {
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.bios-specs h4 {
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.2em;
+    margin: 15px 15px 0 0;
+    color: inherit;
+}
+.bios-copy {
+    line-height: 1.5em;
+    color: inherit;
+}
+.bios-copy hr {
+    size: 1px;
+    margin-top: 45px;
+}
+.page-content table {
+    padding: 0px;
+    margin: 0px !important
+}
+.page-content td {
+    padding: 10px;
+}
+/* homepage services/sectors panel */
+
+#post-15523 {
+	padding-bottom: 140px;
+}
+
+#post-15523 .mods-tabs-list li {
+    color: #1C538F;
+    border-bottom: 0px;
+    font-size: 1.5em;
+}
+#post-15523 .mods-tabs-list li a {
+    color: #1C538F;
+    border-bottom: 0px;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+#post-15523 .mods-tabs-list {
+    padding: 25px 5px 25px 65px;
+    float: left;
+}
+
+#post-15793 .inner-mod {
+	width: 88%;
+}
+
+#post-15793 .service-icon {
+    height: 65px;
+    width: 65px;
+}
+#post-15793 .service-title {
+    width: 200px;
+    text-transform: uppercase;
+    font-size: .9em !important;
+    color: #70A6F7;
+}
+#post-15793 .service-content {
+    width: 200px;
+    font-size: .8em !important;
+}
+
+#post-15793 .service-content-wrapper {
+    padding-left: 85px !important;
+}
+
+#post-15793 .qbtn.service-link {
+    display: none;
+    !important
+}
+/* homepage careers panel */
+
+.career-panel-title {
+    text-align: left;
+    font-size: 1.2em;
+    color: #FFFFFF;
+    padding-bottom: 25px;
+}
+.career-panel-copy {
+    text-align: left;
+    width: 500px;
+    font-size: 2.4em;
+    line-height: 1.2em;
+    color: #FFF;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+.slogan-content-wrapper {
+    padding-top: 150px;
+}
+/* careers bg image */
+
+#post-15791 {
+    background-image: url("/wp-content/uploads/2017/03/hp_careers_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 609px;
+    margin-left: 50px;
+    margin-bottom: 200px;
+}
+/* careers CTA button */
+
+.qbtn {
+    border-radius: 0px;
+    !important
+}
+a.qbtn {
+    border-radius: 0px;
+    !important
+}
+.qbtn.slogan-call-to-action {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    font-weight: 200px;
+}
+/* homepage news panel */
+
+#post-15810 {
+    width: 92%;
+    padding: 0 0 140px 70px;
+}
+#post-15810 h1 {
+    font-size: 2.2em;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+#post-15810 .mod-header {
+    text-align: left;
+    margin-left: 0px;
+    padding: 0px 10px 10px 20px;
+}
+#post-15810 .mod-content {
+    margin: 20px;
+}
+#post-15810 h1.entry-title {
+    font-size: 1em;
+    color: #7A7A77;
+}
+#post-15810 h1.entry-title a {
+    font-size: .85em;
+    color: #7A7A77;
+    text-transform: none;
+}
+
+#post-15810 .magazine-item .entry-thumbnail:hover {
+	zoom: 1;
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+    background-image: url('/wp-content/uploads/2017/03/hover-news.png') !important;
+}
