@@ -1,0 +1,2305 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-07 19:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: inc/custom-fields-definition.php:1566
+msgid "Menu Order"
+msgstr ""
+
+#: inc/dcontent_available.php:17
+msgid "Main Demo"
+msgstr ""
+
+#: inc/dcontent_available.php:18
+msgid ""
+"This is the full demo of Indigo Theme. You'll get many blog and portfolio "
+"possibilities, homepages, about pages, a shop page and more."
+msgstr ""
+
+#: inc/dcontent_available.php:19
+msgid "multipurpose, versatile, corporate, shop, portfolio, blog"
+msgstr ""
+
+#: inc/dcontent_available.php:51
+msgid "Movies"
+msgstr ""
+
+#: inc/dcontent_available.php:52
+msgid ""
+"Inspired on a very famous online streaming site :), a ready made site that "
+"can serve a movies/TV series catalog, a film production company, an "
+"entertainment site, etc. Pages included: Home, About, Catalog."
+msgstr ""
+
+#: inc/dcontent_available.php:53
+msgid "entertainment, portfolio, creative"
+msgstr ""
+
+#: inc/dcontent_available.php:77
+msgid "Sharp"
+msgstr ""
+
+#: inc/dcontent_available.php:78
+msgid ""
+"A ready made site for a modern online service or an agency with a sharp look."
+" Pages included: Home, About, Works, Blog, Contact. Includes a set of custom "
+"CSS rules for extra fun."
+msgstr ""
+
+#: inc/dcontent_available.php:79
+msgid "agency, corporate, modern, services"
+msgstr ""
+
+#: inc/dcontent_available.php:108
+msgid "Agency"
+msgstr ""
+
+#: inc/dcontent_available.php:109
+msgid ""
+"Agency can serve from a small studio to a big agency. Use it to show your "
+"services and to feature your work. Add your copy, mix it up, and give your "
+"company its deserved website. Pages included: Home, About, Creative Process, "
+"Works, Contact."
+msgstr ""
+
+#: inc/dcontent_available.php:110
+msgid "studio, portfolio, services, creative, business, corporate"
+msgstr ""
+
+#: inc/dcontent_available.php:137
+msgid "Shop"
+msgstr ""
+
+#: inc/dcontent_available.php:138
+msgid ""
+"The perfect look and layout for a modern online store. A white-boxed site, "
+"with a neat slider on the homepage to feature products/news/offers, and "
+"pages prepared to show the big categories of your shop each one with its own "
+"style. Pages included: Home, Shop Category Pages, FAQs."
+msgstr ""
+
+#: inc/dcontent_available.php:139
+msgid "shop, e-commerce, store, retailer"
+msgstr ""
+
+#: inc/dcontent_available.php:164
+msgid "Corporate"
+msgstr ""
+
+#: inc/dcontent_available.php:165
+msgid ""
+"Build a corporate business site. Pages included: Home, Services, Portfolio, "
+"News, Contact."
+msgstr ""
+
+#: inc/dcontent_available.php:166
+msgid "business, corporate, services, agency"
+msgstr ""
+
+#: inc/dcontent_available.php:191
+msgid "Magazine"
+msgstr ""
+
+#: inc/dcontent_available.php:192
+msgid ""
+"A modern magazine style site, with category pages and space for "
+"advertisement."
+msgstr ""
+
+#: inc/dcontent_available.php:193
+msgid "magazine, journalism, trendy, modern, news"
+msgstr ""
+
+#: inc/dcontent_available.php:217
+msgid "FullScreen"
+msgstr ""
+
+#: inc/dcontent_available.php:218
+msgid "A one page site with a trendy style and inside navigation."
+msgstr ""
+
+#: inc/dcontent_available.php:219
+msgid "one page, fullscreen, trendy, pop, hipster"
+msgstr ""
+
+#: inc/dcontent_available.php:245
+msgid "Market"
+msgstr ""
+
+#: inc/dcontent_available.php:246
+msgid ""
+"A representative site for a close-to-the-people kind of place. Includes maps "
+"for locations and a useful shopping cart via WooCommerce plugin. Pages "
+"included: Home, Blog, About, Stores, FAQs, E-market."
+msgstr ""
+
+#: inc/dcontent_available.php:247
+msgid "market, e-commerce, store, retailer"
+msgstr ""
+
+#: inc/dcontent_available.php:272 inc/options-definition.php:2814 
+#: inc/qi-framework/custom-fields-functions.php:166 
+#: inc/qi-framework/custom-fields-functions.php:229
+msgid "Portfolio"
+msgstr ""
+
+#: inc/dcontent_available.php:273
+msgid ""
+"A minimal portfolio for a cool studio or a freelancer. It features your "
+"works in a clean and modern way, portraying a cool style and lots of "
+"character. Pages included: Portfolio (as homepage), About, Contact."
+msgstr ""
+
+#: inc/dcontent_available.php:274
+msgid "studio, agency, portfolio, creative, hipster, freelancer"
+msgstr ""
+
+#: inc/dcontent_available.php:299
+msgid "Personal Blog"
+msgstr ""
+
+#: inc/dcontent_available.php:300
+msgid ""
+"A Medium-like blog. Clean. Personal. Beautiful. Pages included: Home 1, Home "
+"2, Home 3, About me."
+msgstr ""
+
+#: inc/dcontent_available.php:301
+msgid "personal, stories, medium, blog"
+msgstr ""
+
+#: inc/dcontent_available.php:323
+msgid "Restaurant"
+msgstr ""
+
+#: inc/dcontent_available.php:324
+msgid ""
+"A premium restaurant website with room for promos, a menu and beautiful food "
+"pics. Pages included: Home, Menu, About, News, Contact."
+msgstr ""
+
+#: inc/dcontent_available.php:325
+msgid "food, bar, resto, deli, premium"
+msgstr ""
+
+#: inc/dcontent_available.php:349
+msgid "Stories"
+msgstr ""
+
+#: inc/dcontent_available.php:350
+msgid ""
+"A site for a story telling little project. Think of HONY in web version, "
+"reloaded. Pages included: Homepage."
+msgstr ""
+
+#: inc/dcontent_available.php:351
+msgid "story telling, stories, journalism, medium, blog"
+msgstr ""
+
+#: inc/dcontent_available.php:373
+msgid "Travel"
+msgstr ""
+
+#: inc/dcontent_available.php:374
+msgid ""
+"A modern style site for a travel agency. Uses Crelly Slider as a homepage "
+"opener, a Services module to showcase the agency features and a Portfolio to "
+"introduce vacation packages. Use it for any sort of service retailer company."
+" Pages included: Home, About, Blog, Packages, Trip Tips."
+msgstr ""
+
+#: inc/dcontent_available.php:375
+msgid "travel, agency, packages, blog"
+msgstr ""
+
+#: inc/dcontent_available.php:400
+msgid "Coworking"
+msgstr ""
+
+#: inc/dcontent_available.php:401
+msgid ""
+"A ready-made site for a coworking space. It will serve any kind of down to "
+"the point mission, though. Got a service you need to promote? Trying a new "
+"product campaign? This is the one. Go for it. Pages included: Home, Our "
+"Mission, Our Space, Pricing, Contact Us. Please enable \"Legacy Bundled "
+"Widgets in Settings >> Page Builder >> Widgets\"."
+msgstr ""
+
+#: inc/dcontent_available.php:402
+msgid "coworking, space, studio, freelancer"
+msgstr ""
+
+#: inc/options-definition.php:27
+msgid "Logo Type"
+msgstr ""
+
+#: inc/options-definition.php:32
+msgid "Logo Image"
+msgstr ""
+
+#: inc/options-definition.php:36
+msgid "Title"
+msgstr ""
+
+#: inc/options-definition.php:46
+msgid "Logo Image File"
+msgstr ""
+
+#: inc/options-definition.php:48
+msgid ""
+"Note: Logo img should be 60px height minimum. Keep in mind that that is the "
+"maximum height the logo will have and the theme will resize it "
+"proportionally to fit into that."
+msgstr ""
+
+#: inc/options-definition.php:55
+msgid "Logo Image File for Retina"
+msgstr ""
+
+#: inc/options-definition.php:57 inc/options-definition.php:94
+msgid "Twice as bigger, for retina screens"
+msgstr ""
+
+#: inc/options-definition.php:64
+msgid "About Text"
+msgstr ""
+
+#: inc/options-definition.php:67
+msgid "This will appear next to your logo/name on the site's header."
+msgstr ""
+
+#: inc/options-definition.php:74
+msgid "Favicon Image File (For Pre WP 4.3 Versions)"
+msgstr ""
+
+#: inc/options-definition.php:83
+msgid "Custom Login Image File"
+msgstr ""
+
+#: inc/options-definition.php:92
+msgid "Custom Login Image File for Retina"
+msgstr ""
+
+#: inc/options-definition.php:102
+msgid "404 Page Title"
+msgstr ""
+
+#: inc/options-definition.php:112
+msgid "404 Page Text"
+msgstr ""
+
+#: inc/options-definition.php:122
+msgid "Retina Support Enable"
+msgstr ""
+
+#: inc/options-definition.php:124
+msgid ""
+"Only disable Retina Support if you want to avoid extra time dedication when "
+"uploading images to the site. Keep in mind that any image you may upload "
+"when Retina Support is disabled wont get cropped accordingly."
+msgstr ""
+
+#: inc/options-definition.php:131
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/options-definition.php:136 inc/options-definition.php:217 
+#: inc/options-definition.php:262 inc/options-definition.php:590 
+#: inc/options-definition.php:1113 inc/options-definition.php:1132 
+#: inc/options-definition.php:1151 inc/options-definition.php:1174 
+#: inc/options-definition.php:1280 inc/options-definition.php:1384 
+#: inc/options-definition.php:2015 inc/options-definition.php:2083 
+#: inc/options-definition.php:2151 inc/options-definition.php:2219 
+#: inc/options-definition.php:2287 inc/options-definition.php:2355 
+#: inc/options-definition.php:2517
+msgid "Show"
+msgstr ""
+
+#: inc/options-definition.php:140 inc/options-definition.php:213 
+#: inc/options-definition.php:266 inc/options-definition.php:594 
+#: inc/options-definition.php:1117 inc/options-definition.php:1136 
+#: inc/options-definition.php:1155 inc/options-definition.php:1170 
+#: inc/options-definition.php:1284 inc/options-definition.php:1388 
+#: inc/options-definition.php:2011 inc/options-definition.php:2079 
+#: inc/options-definition.php:2147 inc/options-definition.php:2215 
+#: inc/options-definition.php:2283 inc/options-definition.php:2351 
+#: inc/options-definition.php:2521
+msgid "Hide"
+msgstr ""
+
+#: inc/options-definition.php:150
+msgid "Breadcrumbs Prefix"
+msgstr ""
+
+#: inc/options-definition.php:153
+msgid "Optional text for breadcrumbs. Ex: \"You are here:\""
+msgstr ""
+
+#: inc/options-definition.php:160
+msgid "Back-to-top Enable"
+msgstr ""
+
+#: inc/options-definition.php:169
+msgid "Transients Cache Enable"
+msgstr ""
+
+#: inc/options-definition.php:174 inc/options-definition.php:197
+msgid "Disabled"
+msgstr ""
+
+#: inc/options-definition.php:178 inc/options-definition.php:193
+msgid "Enabled"
+msgstr ""
+
+#: inc/options-definition.php:181
+msgid ""
+"We recommend enabling this option for maximum performance improvements. "
+"Disable this option if you need to show sensitive information on modules "
+"served specifically for each particular user. Note: Some Page Builder "
+"elements which output dynamic CSS won't work with transients enabled."
+msgstr ""
+
+#: inc/options-definition.php:188
+msgid "Scripts Deferring Enable"
+msgstr ""
+
+#: inc/options-definition.php:200
+msgid ""
+"Enables the deferring of external scipts till after the page has load. "
+"Notice that some plugins may not work when Javascript deferring is enabled. "
+"If you have doubts about it, try it on/off our check with the plugin author."
+msgstr ""
+
+#: inc/options-definition.php:208
+msgid "Login Link in Header (show/hide)"
+msgstr ""
+
+#: inc/options-definition.php:227
+msgid "Login Link Text"
+msgstr ""
+
+#: inc/options-definition.php:230
+msgid "Optional text for login icon. Ex: \"Login\""
+msgstr ""
+
+#: inc/options-definition.php:237
+msgid "Login Page URL"
+msgstr ""
+
+#: inc/options-definition.php:240
+msgid "Enter here your preferred login page URL"
+msgstr ""
+
+#: inc/options-definition.php:247
+msgid "Once logged in link points to:"
+msgstr ""
+
+#: inc/options-definition.php:250
+msgid "Optional. Can be used for a My Account page."
+msgstr ""
+
+#: inc/options-definition.php:257
+msgid "Logout Link in User Menu (show/hide)"
+msgstr ""
+
+#: inc/options-definition.php:269
+msgid ""
+"To display a Logout link inside the User/Login Menu, make sure you have "
+"created a new menu (at Appearance >> Menus) and defined it for the "
+"User/Login Menu option in Appearance >> Menus >> Manage Locations."
+msgstr ""
+
+#: inc/options-definition.php:276
+msgid "Logout Link Text"
+msgstr ""
+
+#: inc/options-definition.php:279
+msgid "Text for logout link in menu. Ex: \"Logout\""
+msgstr ""
+
+#: inc/options-definition.php:287
+msgid "Ready Made Sites Import"
+msgstr ""
+
+#: inc/options-definition.php:289
+msgid ""
+"By using the importer you will import pages, posts, menus and theme settings "
+"to your WordPress install. <strong>Please be aware that this process can "
+"override your current content & options in lots of ways. It is advisable "
+"that you do this only on installs with no previous content.</strong><br />* "
+"If you receive a success message but don't see any content imported **and** "
+"you had the WordPress Importer plugin activated, give this a second run, the "
+"Importer will have used the first one to deactivate the plugin to enable "
+"this action."
+msgstr ""
+
+#: inc/options-definition.php:297 inc/qi-framework/options-helper.php:589 
+#: inc/qi-framework/options-helper.php:589
+msgid "Backup Options"
+msgstr ""
+
+#: inc/options-definition.php:307
+msgid "Export Options"
+msgstr ""
+
+#: inc/options-definition.php:309
+msgid ""
+"You can transfer your theme settings between different installs by copying "
+"the text inside this text box. To import data from another install, replace "
+"the data in the text box with the one from another install and click "
+"\"Import Options\"."
+msgstr ""
+
+#: inc/options-definition.php:318
+msgid "Enable Updates"
+msgstr ""
+
+#: inc/options-definition.php:320
+msgid ""
+"Keep this checked if you want to be able to update your theme from the "
+"WordPress themes screen and get notified about new versions as they come out."
+msgstr ""
+
+#: inc/options-definition.php:328
+msgid "Artisan Themes Username"
+msgstr ""
+
+#: inc/options-definition.php:331
+msgid ""
+"Don't have an Artisan Themes user? Get yours <a href=\"https://artisanthemes."
+"io\" target=\"_blank\">here</a>. <strong>Note: If you already have a "
+"username, you may need to login and register your theme before being able to "
+"update.</strong>"
+msgstr ""
+
+#: inc/options-definition.php:339
+msgid "Artisan Themes Password"
+msgstr ""
+
+#: inc/options-definition.php:350
+msgid "License ID"
+msgstr ""
+
+#: inc/options-definition.php:361
+msgid "Verify User"
+msgstr ""
+
+#: inc/options-definition.php:364
+msgid ""
+"This step is not required. You can use it to verify you have entered your "
+"credentials correctly. <br /><strong>Once you enter your details, click "
+"\"Save Settings\" before checking.</strong>"
+msgstr ""
+
+#: inc/options-definition.php:376
+msgid "Blog Style"
+msgstr ""
+
+#: inc/options-definition.php:381
+msgid "Classic"
+msgstr ""
+
+#: inc/options-definition.php:385
+msgid "Teasers"
+msgstr ""
+
+#: inc/options-definition.php:389
+msgid "Headlines"
+msgstr ""
+
+#: inc/options-definition.php:393
+msgid "Masonry"
+msgstr ""
+
+#: inc/options-definition.php:397
+msgid "Metro"
+msgstr ""
+
+#: inc/options-definition.php:400
+msgid ""
+"This setting applies to all multiple-posts layouts (blog, archives, search "
+"results, etc.)"
+msgstr ""
+
+#: inc/options-definition.php:407
+msgid "Blog Columns"
+msgstr ""
+
+#: inc/options-definition.php:412
+msgid "Two"
+msgstr ""
+
+#: inc/options-definition.php:416
+msgid "Three"
+msgstr ""
+
+#: inc/options-definition.php:419 inc/options-definition.php:438
+msgid ""
+"This setting applies to all multiple-posts masonry layouts (blog, archives, "
+"search results, etc.)"
+msgstr ""
+
+#: inc/options-definition.php:426
+msgid "Masonry Margins"
+msgstr ""
+
+#: inc/options-definition.php:431
+msgid "Without Margins"
+msgstr ""
+
+#: inc/options-definition.php:435
+msgid "With Margins"
+msgstr ""
+
+#: inc/options-definition.php:445
+msgid "Posts Loading Animation"
+msgstr ""
+
+#: inc/options-definition.php:450 
+#: inc/qi-framework/custom-fields-functions.php:322 
+#: inc/qi-framework/options.php:296
+msgid "None"
+msgstr ""
+
+#: inc/options-definition.php:454
+msgid "Type 1"
+msgstr ""
+
+#: inc/options-definition.php:458
+msgid "Type 2"
+msgstr ""
+
+#: inc/options-definition.php:462
+msgid "Type 3"
+msgstr ""
+
+#: inc/options-definition.php:466
+msgid "Type 4"
+msgstr ""
+
+#: inc/options-definition.php:470
+msgid "Type 5"
+msgstr ""
+
+#: inc/options-definition.php:474
+msgid "Type 6"
+msgstr ""
+
+#: inc/options-definition.php:478
+msgid "Type 7"
+msgstr ""
+
+#: inc/options-definition.php:482
+msgid "Type 8"
+msgstr ""
+
+#: inc/options-definition.php:485
+msgid ""
+"This setting applies to all multiple-posts masonry layouts (blog, archives, "
+"search results, etc.). Available in Masonry Blog Style."
+msgstr ""
+
+#: inc/options-definition.php:492 inc/options-definition.php:1294
+msgid "Background Color"
+msgstr ""
+
+#: inc/options-definition.php:501
+msgid "Show Sidebar for Blog & Archives"
+msgstr ""
+
+#: inc/options-definition.php:506 inc/options-definition.php:548
+msgid "With Sidebar"
+msgstr ""
+
+#: inc/options-definition.php:510 inc/options-definition.php:552
+msgid "Full Width"
+msgstr ""
+
+#: inc/options-definition.php:521 inc/options-definition.php:563
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/options-definition.php:526 inc/options-definition.php:568
+msgid "Left"
+msgstr ""
+
+#: inc/options-definition.php:531 inc/options-definition.php:573
+msgid "Right"
+msgstr ""
+
+#: inc/options-definition.php:543
+msgid "Style"
+msgstr ""
+
+#: inc/options-definition.php:585
+msgid "Author Box at End of Article"
+msgstr ""
+
+#: inc/options-definition.php:605
+msgid "Stretched / Boxed Site Version"
+msgstr ""
+
+#: inc/options-definition.php:636
+msgid "Header Layout"
+msgstr ""
+
+#: inc/options-definition.php:644 inc/options-definition.php:668 
+#: inc/options-definition.php:674 inc/options-definition.php:698
+msgid "One row. Logo + Navigation Menu + Social Links + Extras."
+msgstr ""
+
+#: inc/options-definition.php:650 inc/options-definition.php:662
+msgid "Two rows. Logo + Navigation Menu + Social Links + Extras."
+msgstr ""
+
+#: inc/options-definition.php:656 inc/options-definition.php:716
+msgid "Two rows. Logo + About Text + Navigation Menu + Social Links + Extras."
+msgstr ""
+
+#: inc/options-definition.php:680
+msgid "Side Header. (Only with Streched Site & Background Header)."
+msgstr ""
+
+#: inc/options-definition.php:686 inc/options-definition.php:692 
+#: inc/options-definition.php:710
+msgid "One row. Logo + Closed Menu + Social Links + Extras."
+msgstr ""
+
+#: inc/options-definition.php:704
+msgid "One row. Logo + Navigation Menu + About Text."
+msgstr ""
+
+#: inc/options-definition.php:722 inc/options-definition.php:728
+msgid "Two rows. Logo + Ad Banner + Navigation Menu + Social Links + Extras."
+msgstr ""
+
+#: inc/options-definition.php:734
+msgid ""
+"Logo + Closed Menu + Social Links + Extras. (Only with Stretched site layout "
+"and Transparent header)."
+msgstr ""
+
+#: inc/options-definition.php:750
+msgid "Header Height"
+msgstr ""
+
+#: inc/options-definition.php:755
+msgid "Short"
+msgstr ""
+
+#: inc/options-definition.php:759
+msgid "Tall"
+msgstr ""
+
+#: inc/options-definition.php:784
+msgid "Header Style"
+msgstr ""
+
+#: inc/options-definition.php:789
+msgid "With Background"
+msgstr ""
+
+#: inc/options-definition.php:793
+msgid "Transparent"
+msgstr ""
+
+#: inc/options-definition.php:811
+msgid "You can override this setting on each page."
+msgstr ""
+
+#: inc/options-definition.php:818
+msgid "Header 1st Row Background"
+msgstr ""
+
+#: inc/options-definition.php:847
+msgid "Header 1st Row Color"
+msgstr ""
+
+#: inc/options-definition.php:876
+msgid "Header 2nd Row Background"
+msgstr ""
+
+#: inc/options-definition.php:905
+msgid "Header 2nd Row Color"
+msgstr ""
+
+#: inc/options-definition.php:934
+msgid "Transparent Header Color"
+msgstr ""
+
+#: inc/options-definition.php:939
+msgid "Dark"
+msgstr ""
+
+#: inc/options-definition.php:944
+msgid "Light"
+msgstr ""
+
+#: inc/options-definition.php:949 inc/options-definition.php:1911 
+#: inc/options-definition.php:1940
+msgid "Custom"
+msgstr ""
+
+#: inc/options-definition.php:980
+msgid "Transparent Header Custom Color"
+msgstr ""
+
+#: inc/options-definition.php:1014
+msgid "Side Header Background"
+msgstr ""
+
+#: inc/options-definition.php:1044
+msgid "Side Header Color"
+msgstr ""
+
+#: inc/options-definition.php:1074
+msgid "Sticky Menu (Pit Bar)"
+msgstr ""
+
+#: inc/options-definition.php:1079
+msgid "Sticky"
+msgstr ""
+
+#: inc/options-definition.php:1083
+msgid "Not Sticky"
+msgstr ""
+
+#: inc/options-definition.php:1108
+msgid "Menu (show/hide)"
+msgstr ""
+
+#: inc/options-definition.php:1127 inc/options-definition.php:1379
+msgid "Social Icons (show/hide)"
+msgstr ""
+
+#: inc/options-definition.php:1146
+msgid "Search Field in Menu (show/hide)"
+msgstr ""
+
+#: inc/options-definition.php:1165
+msgid "Widgetized Area in Header (show/hide)"
+msgstr ""
+
+#: inc/options-definition.php:1177
+msgid ""
+"This enables a slideable top space above the header that serves as an extra "
+"widget area."
+msgstr ""
+
+#: inc/options-definition.php:1184
+msgid "Widgetized Header Layout"
+msgstr ""
+
+#: inc/options-definition.php:1240
+msgid "Widgetized Header Background"
+msgstr ""
+
+#: inc/options-definition.php:1257
+msgid "Widgetized Header Color"
+msgstr ""
+
+#: inc/options-definition.php:1275
+msgid "Widgetized Footer (show/hide)"
+msgstr ""
+
+#: inc/options-definition.php:1303
+msgid "Text Color"
+msgstr ""
+
+#: inc/options-definition.php:1312
+msgid "Links Color"
+msgstr ""
+
+#: inc/options-definition.php:1321
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/options-definition.php:1331
+msgid "Widgetized Footer Layout"
+msgstr ""
+
+#: inc/options-definition.php:1399
+msgid "Manage Sidebars"
+msgstr ""
+
+#: inc/options-definition.php:1404
+msgid "Sidebar Name"
+msgstr ""
+
+#: inc/options-definition.php:1406
+msgid "The name will be shown at widgets page."
+msgstr ""
+
+#: inc/options-definition.php:1410
+msgid "Sidebar Slug"
+msgstr ""
+
+#: inc/options-definition.php:1412 inc/options-definition.php:2480
+msgid "Internal use. Only lowercases, digits, \"-\" and \"_\" allowed."
+msgstr ""
+
+#: inc/options-definition.php:1415
+msgid "Add new Sidebar"
+msgstr ""
+
+#: inc/options-definition.php:1427
+msgid "Theme's Main Color"
+msgstr ""
+
+#: inc/options-definition.php:1437
+msgid "Icon Font Selection"
+msgstr ""
+
+#: inc/options-definition.php:1442
+msgid "Elegant Icons"
+msgstr ""
+
+#: inc/options-definition.php:1446
+msgid "Font Awesome"
+msgstr ""
+
+#: inc/options-definition.php:1457 inc/options-definition.php:1902 
+#: inc/options-definition.php:1931
+msgid "Color"
+msgstr ""
+
+#: inc/options-definition.php:1466
+msgid "Pattern"
+msgstr ""
+
+#: inc/options-definition.php:1477
+msgid "Custom Image"
+msgstr ""
+
+#: inc/options-definition.php:1479
+msgid ""
+"Note: Uploading a custom background image will override any other background "
+"setting."
+msgstr ""
+
+#: inc/options-definition.php:1503
+msgid "Font Selection"
+msgstr ""
+
+#: inc/options-definition.php:1508
+msgid "Google & Web Safe Fonts"
+msgstr ""
+
+#: inc/options-definition.php:1512
+msgid "Typekit Custom Kit"
+msgstr ""
+
+#: inc/options-definition.php:1516 inc/options-definition.php:2740
+msgid "Custom Font Upload"
+msgstr ""
+
+#: inc/options-definition.php:1536 inc/options-definition.php:1571
+msgid ""
+"Google Fonts (those which come after the separator mark) can be previewed <a "
+"href=\"https://www.google.com/fonts\" title=\"Google Fonts\">here</a>. "
+"Please check available weights for each font family before declaring them."
+msgstr ""
+
+#: inc/options-definition.php:1554 inc/options-definition.php:1589
+msgid "(Optional) Ex. :300,400,700"
+msgstr ""
+
+#: inc/options-definition.php:1596
+msgid "Font Subset"
+msgstr ""
+
+#: inc/options-definition.php:1607
+msgid ""
+"(Optional) Add :cyrillic / :greek / :cyrillic-ext / :greek-ext / :latin to "
+"enable font subsets. Only on supported Google Fonts. Multiple subsets should "
+"be separated by commas, using just one colon at the beginning."
+msgstr ""
+
+#: inc/options-definition.php:1615
+msgid "Typekit Kit ID"
+msgstr ""
+
+#: inc/options-definition.php:1626
+msgid "Enter Typekit Kit's ID"
+msgstr ""
+
+#: inc/options-definition.php:1633
+msgid "Typekit - Headings Font Family"
+msgstr ""
+
+#: inc/options-definition.php:1644 inc/options-definition.php:1662
+msgid "Enter font-family CSS name"
+msgstr ""
+
+#: inc/options-definition.php:1651
+msgid "Typekit - Body Font Family"
+msgstr ""
+
+#: inc/options-definition.php:1670
+msgid "Links"
+msgstr ""
+
+#: inc/options-definition.php:1679
+msgid "Links Hover"
+msgstr ""
+
+#: inc/options-definition.php:1693
+msgid "8 to 30 allowed."
+msgstr ""
+
+#: inc/options-definition.php:1704
+msgid "12 to 60 allowed."
+msgstr ""
+
+#: inc/options-definition.php:1712
+msgid "Font Name"
+msgstr ""
+
+#: inc/options-definition.php:1715
+msgid "Just for CSS use. No spaces, please. ;)"
+msgstr ""
+
+#: inc/options-definition.php:1722
+msgid "Use Custom Font for Logo"
+msgstr ""
+
+#: inc/options-definition.php:1731
+msgid "Use Custom Font for Headings"
+msgstr ""
+
+#: inc/options-definition.php:1740
+msgid "Font Upload .eot"
+msgstr ""
+
+#: inc/options-definition.php:1749
+msgid "Font Upload .woff"
+msgstr ""
+
+#: inc/options-definition.php:1758
+msgid "Font Upload .ttf/.otf"
+msgstr ""
+
+#: inc/options-definition.php:1767
+msgid "Font Upload .svg"
+msgstr ""
+
+#: inc/options-definition.php:1781
+msgid "Dribbble Profile"
+msgstr ""
+
+#: inc/options-definition.php:1784
+msgid "Dribbble Username"
+msgstr ""
+
+#: inc/options-definition.php:1791
+msgid "Facebook Profile"
+msgstr ""
+
+#: inc/options-definition.php:1794
+msgid "Facebook Username"
+msgstr ""
+
+#: inc/options-definition.php:1801
+msgid "Flickr Profile"
+msgstr ""
+
+#: inc/options-definition.php:1804
+msgid "Flickr Username"
+msgstr ""
+
+#: inc/options-definition.php:1811
+msgid "Google+ Profile"
+msgstr ""
+
+#: inc/options-definition.php:1814
+msgid "Google+ Username"
+msgstr ""
+
+#: inc/options-definition.php:1821
+msgid "Instagram Profile"
+msgstr ""
+
+#: inc/options-definition.php:1824
+msgid "Instagram Username"
+msgstr ""
+
+#: inc/options-definition.php:1831
+msgid "Linked-In Profile"
+msgstr ""
+
+#: inc/options-definition.php:1834
+msgid "Linked-In Username"
+msgstr ""
+
+#: inc/options-definition.php:1841
+msgid "Pinterest Profile"
+msgstr ""
+
+#: inc/options-definition.php:1844
+msgid "Pinterest Username"
+msgstr ""
+
+#: inc/options-definition.php:1851
+msgid "Skype Profile"
+msgstr ""
+
+#: inc/options-definition.php:1854
+msgid "Skype Username"
+msgstr ""
+
+#: inc/options-definition.php:1861
+msgid "Tumblr Profile"
+msgstr ""
+
+#: inc/options-definition.php:1864
+msgid "Tumblr Username"
+msgstr ""
+
+#: inc/options-definition.php:1871
+msgid "Twitter Profile"
+msgstr ""
+
+#: inc/options-definition.php:1874
+msgid "Twitter Username"
+msgstr ""
+
+#: inc/options-definition.php:1881
+msgid "Vimeo Profile"
+msgstr ""
+
+#: inc/options-definition.php:1884
+msgid "Vimeo Username"
+msgstr ""
+
+#: inc/options-definition.php:1891
+msgid "YouTube Profile"
+msgstr ""
+
+#: inc/options-definition.php:1894
+msgid "YouTube Username"
+msgstr ""
+
+#: inc/options-definition.php:1907 inc/options-definition.php:1936
+msgid "Brand"
+msgstr ""
+
+#: inc/options-definition.php:1914 inc/options-definition.php:1943
+msgid ""
+"Chose whether to use the original colors for each network or a custom one "
+"for all of them."
+msgstr ""
+
+#: inc/options-definition.php:1921 inc/options-definition.php:1950
+msgid "Color Picker"
+msgstr ""
+
+#: inc/options-definition.php:1960
+msgid "Link Target"
+msgstr ""
+
+#: inc/options-definition.php:1965
+msgid "Same tab (\"_self\")"
+msgstr ""
+
+#: inc/options-definition.php:1969
+msgid "New tab (\"_blank\")"
+msgstr ""
+
+#: inc/options-definition.php:1972
+msgid ""
+"Chose whether to open the profile links in the same tab or in a new one."
+msgstr ""
+
+#: inc/options-definition.php:1980
+msgid "Available Contact Methods"
+msgstr ""
+
+#: inc/options-definition.php:1985
+msgid "Name"
+msgstr ""
+
+#: inc/options-definition.php:1991
+msgid "Slug"
+msgstr ""
+
+#: inc/options-definition.php:1996
+msgid "Add new Method"
+msgstr ""
+
+#: inc/options-definition.php:1997
+msgid "Contact Method"
+msgstr ""
+
+#: inc/options-definition.php:2006 inc/options-definition.php:2074 
+#: inc/options-definition.php:2142 inc/options-definition.php:2210 
+#: inc/options-definition.php:2278 inc/options-definition.php:2346
+msgid "Ad Show/Hide"
+msgstr ""
+
+#: inc/options-definition.php:2025 inc/options-definition.php:2093 
+#: inc/options-definition.php:2161 inc/options-definition.php:2229 
+#: inc/options-definition.php:2297 inc/options-definition.php:2377
+msgid "Image Ad Upload"
+msgstr ""
+
+#: inc/options-definition.php:2027 inc/options-definition.php:2095 
+#: inc/options-definition.php:2163 inc/options-definition.php:2231 
+#: inc/options-definition.php:2299 inc/options-definition.php:2379
+msgid "Upload an image for your ad"
+msgstr ""
+
+#: inc/options-definition.php:2034 inc/options-definition.php:2102 
+#: inc/options-definition.php:2170 inc/options-definition.php:2238 
+#: inc/options-definition.php:2306 inc/options-definition.php:2386
+msgid "Image Ad Link"
+msgstr ""
+
+#: inc/options-definition.php:2037 inc/options-definition.php:2105 
+#: inc/options-definition.php:2173 inc/options-definition.php:2241 
+#: inc/options-definition.php:2309 inc/options-definition.php:2389
+msgid "Insert URL destination for your ad"
+msgstr ""
+
+#: inc/options-definition.php:2044 inc/options-definition.php:2112 
+#: inc/options-definition.php:2180 inc/options-definition.php:2248 
+#: inc/options-definition.php:2316 inc/options-definition.php:2396
+msgid "Image Ad Link Target"
+msgstr ""
+
+#: inc/options-definition.php:2049 inc/options-definition.php:2117 
+#: inc/options-definition.php:2185 inc/options-definition.php:2253 
+#: inc/options-definition.php:2321 inc/options-definition.php:2401
+msgid "Self"
+msgstr ""
+
+#: inc/options-definition.php:2053 inc/options-definition.php:2121 
+#: inc/options-definition.php:2189 inc/options-definition.php:2257 
+#: inc/options-definition.php:2325 inc/options-definition.php:2405
+msgid "Blank"
+msgstr ""
+
+#: inc/options-definition.php:2056 inc/options-definition.php:2124 
+#: inc/options-definition.php:2192 inc/options-definition.php:2260 
+#: inc/options-definition.php:2328 inc/options-definition.php:2408
+msgid ""
+"Select \"Self\" to open on the same browser's tab, or \"Blank\" to open a "
+"new one."
+msgstr ""
+
+#: inc/options-definition.php:2063 inc/options-definition.php:2131 
+#: inc/options-definition.php:2199 inc/options-definition.php:2267 
+#: inc/options-definition.php:2335 inc/options-definition.php:2415
+msgid "Ad Shortcode"
+msgstr ""
+
+#: inc/options-definition.php:2066 inc/options-definition.php:2134 
+#: inc/options-definition.php:2202 inc/options-definition.php:2270 
+#: inc/options-definition.php:2338 inc/options-definition.php:2418
+msgid "Paste here shortcode from your Ads Plugin (overrides image upload)"
+msgstr ""
+
+#: inc/options-definition.php:2365
+msgid "Insert ad after number of paragraphs"
+msgstr ""
+
+#: inc/options-definition.php:2428
+msgid "Portfolio Items Slug Prefix"
+msgstr ""
+
+#: inc/options-definition.php:2431
+msgid ""
+"This appears in the URL before the portfolio item slug. <strong>IMPORTANT: "
+"You must reflush permalinks after you modify this option.</strong>"
+msgstr ""
+
+#: inc/options-definition.php:2438
+msgid "View All Items URL"
+msgstr ""
+
+#: inc/options-definition.php:2441
+msgid "Leave empty if not in use."
+msgstr ""
+
+#: inc/options-definition.php:2448
+msgid "View All Items Text"
+msgstr ""
+
+#: inc/options-definition.php:2451
+msgid "Note: won't show up when loaded via AJAX."
+msgstr ""
+
+#: inc/options-definition.php:2458
+msgid "Keep Navigation in Same Category"
+msgstr ""
+
+#: inc/options-definition.php:2460
+msgid "Will work only for non-AJAX navigated items."
+msgstr ""
+
+#: inc/options-definition.php:2467
+msgid "Data Fields"
+msgstr ""
+
+#: inc/options-definition.php:2472
+msgid "Field Title"
+msgstr ""
+
+#: inc/options-definition.php:2478
+msgid "Field Slug"
+msgstr ""
+
+#: inc/options-definition.php:2484
+msgid "Display Field Title"
+msgstr ""
+
+#: inc/options-definition.php:2486
+msgid ""
+"If enabled the Field Title will be shown next to its data on the frontend."
+msgstr ""
+
+#: inc/options-definition.php:2490
+msgid "Add new Field"
+msgstr ""
+
+#: inc/options-definition.php:2491
+msgid "Portfolio Data Field"
+msgstr ""
+
+#: inc/options-definition.php:2492
+msgid ""
+"You can use as many fields as you want to display structured data on your "
+"portfolio items. Select which fields to show in each portfolio module on its "
+"Options metabox."
+msgstr ""
+
+#: inc/options-definition.php:2499
+msgid "Refresh Portfolio Transients"
+msgstr ""
+
+#: inc/options-definition.php:2501
+msgid ""
+"Use this button to reset \"cached\" portfolio items data. It won't delete "
+"anything, just reset the transients."
+msgstr ""
+
+#: inc/options-definition.php:2512
+msgid "Show Cart Icon on Header"
+msgstr ""
+
+#: inc/options-definition.php:2531
+msgid "Sidebar on Shop page"
+msgstr ""
+
+#: inc/options-definition.php:2536
+msgid "Left positioned"
+msgstr ""
+
+#: inc/options-definition.php:2540
+msgid "Right positioned"
+msgstr ""
+
+#: inc/options-definition.php:2544
+msgid "None (full width)"
+msgstr ""
+
+#: inc/options-definition.php:2547
+msgid "This option will use selected sidebar in <strong>Shop Page</strong>."
+msgstr ""
+
+#: inc/options-definition.php:2554
+msgid "Number of items per page in Shop page"
+msgstr ""
+
+#: inc/options-definition.php:2565
+msgid "Number of columns per row in Shop page"
+msgstr ""
+
+#: inc/options-definition.php:2576
+msgid "Number of related products shown"
+msgstr ""
+
+#: inc/options-definition.php:2587
+msgid "My Account Intro"
+msgstr ""
+
+#: inc/options-definition.php:2590
+msgid ""
+"Add text before default \"My account\" content (gets added after Woocommerce "
+"user intro)."
+msgstr ""
+
+#: inc/options-definition.php:2597
+msgid "Login/Register Intro"
+msgstr ""
+
+#: inc/options-definition.php:2600
+msgid "Add text before login/register form."
+msgstr ""
+
+#: inc/options-definition.php:2628
+msgid "General"
+msgstr ""
+
+#: inc/options-definition.php:2632
+msgid "Branding"
+msgstr ""
+
+#: inc/options-definition.php:2637
+msgid "Miscelaneous"
+msgstr ""
+
+#: inc/options-definition.php:2642
+msgid "User/Login Menu"
+msgstr ""
+
+#: inc/options-definition.php:2643
+msgid ""
+"This section enables a login link for your users at the top of the header "
+"site. If you want to include a sub-menu inside it, create a new menu by "
+"navigating to Appearance >> Menus, and then define it for the User/Login "
+"Menu location at Appearance >> Menus >> Manage Locations. You can leave that "
+"menu empty (without any items) if you only want to display a Logout link "
+"inside it."
+msgstr ""
+
+#: inc/options-definition.php:2647
+msgid "Options & Content"
+msgstr ""
+
+#: inc/options-definition.php:2652
+msgid "Theme Updates & License"
+msgstr ""
+
+#: inc/options-definition.php:2659
+msgid "Layout"
+msgstr ""
+
+#: inc/options-definition.php:2663
+msgid "General Layout"
+msgstr ""
+
+#: inc/options-definition.php:2668
+msgid "Header Options"
+msgstr ""
+
+#: inc/options-definition.php:2669
+msgid "Manage Header options for Indigo Theme."
+msgstr ""
+
+#: inc/options-definition.php:2673
+msgid "Blog & Archives Options"
+msgstr ""
+
+#: inc/options-definition.php:2674
+msgid ""
+"Manage Blog and Archives options for Indigo Theme.<br /><small>(Options "
+"selected in Blog modules over your site will override these)</small>"
+msgstr ""
+
+#: inc/options-definition.php:2678
+msgid "Single Blog Posts"
+msgstr ""
+
+#: inc/options-definition.php:2683
+msgid "Footer Options"
+msgstr ""
+
+#: inc/options-definition.php:2684
+msgid "Manage Footer options for Indigo Theme."
+msgstr ""
+
+#: inc/options-definition.php:2688
+msgid "Sidebars"
+msgstr ""
+
+#: inc/options-definition.php:2689
+msgid "Add or remove Widget Areas"
+msgstr ""
+
+#: inc/options-definition.php:2695
+msgid "Design"
+msgstr ""
+
+#: inc/options-definition.php:2699 inc/options-definition.php:2730
+msgid "Colors"
+msgstr ""
+
+#: inc/options-definition.php:2704
+msgid "Icons"
+msgstr ""
+
+#: inc/options-definition.php:2709
+msgid "Background"
+msgstr ""
+
+#: inc/options-definition.php:2714
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/options-definition.php:2715
+msgid ""
+"These CSS rules override all theme's CSS rules and are not deleted when you "
+"restore default settings."
+msgstr ""
+
+#: inc/options-definition.php:2721
+msgid "Typography"
+msgstr ""
+
+#: inc/options-definition.php:2725
+msgid "Font Options"
+msgstr ""
+
+#: inc/options-definition.php:2735
+msgid "Font Sizes"
+msgstr ""
+
+#: inc/options-definition.php:2741
+msgid ""
+"Font packages can be downloaded from sites like <a href=\"http://www."
+"fontsquirrel.com/\" target=\"_blank\">Font Squirrel</a> and others. While "
+"you don't explicitly need to have all four font formats, uploading as many "
+"of them as you can will improve compatibility with more web browsers."
+msgstr ""
+
+#: inc/options-definition.php:2747
+msgid "Social"
+msgstr ""
+
+#: inc/options-definition.php:2751
+msgid "Social Networks Profiles"
+msgstr ""
+
+#: inc/options-definition.php:2756
+msgid "Header Social Icons Settings"
+msgstr ""
+
+#: inc/options-definition.php:2761
+msgid "Footer Social Icons Settings"
+msgstr ""
+
+#: inc/options-definition.php:2766
+msgid "General Social Settings"
+msgstr ""
+
+#: inc/options-definition.php:2771
+msgid "User Contact Methods"
+msgstr ""
+
+#: inc/options-definition.php:2772
+msgid ""
+"Use this section to define available contact methods for all your users, to "
+"be edited on the Your Profile page (and used on author archives, author "
+"modules, author box, and team modules)."
+msgstr ""
+
+#: inc/options-definition.php:2772
+msgid ""
+"For the 'slug' field, enter the name of the social network you want to use. "
+"It should be all lowercase letters, and match the proper "
+msgstr ""
+
+#: inc/options-definition.php:2772
+msgid "icon name on Font Awesome."
+msgstr ""
+
+#: inc/options-definition.php:2772
+msgid "Twitter example: Name|Twitter  -  Slug|twitter"
+msgstr ""
+
+#: inc/options-definition.php:2772
+msgid "Email example: Name|Email  -  Slug|envelope"
+msgstr ""
+
+#: inc/options-definition.php:2778
+msgid "Advertising"
+msgstr ""
+
+#: inc/options-definition.php:2782
+msgid "On Header Ad"
+msgstr ""
+
+#: inc/options-definition.php:2783
+msgid "Manage advertising shortcodes or banners for the site's header."
+msgstr ""
+
+#: inc/options-definition.php:2787
+msgid "On Posts Ads - Before Title"
+msgstr ""
+
+#: inc/options-definition.php:2788 inc/options-definition.php:2793 
+#: inc/options-definition.php:2798 inc/options-definition.php:2803 
+#: inc/options-definition.php:2808
+msgid "Manage advertising shortcodes or banners across site's posts."
+msgstr ""
+
+#: inc/options-definition.php:2792
+msgid "On Posts Ads - After Title"
+msgstr ""
+
+#: inc/options-definition.php:2797
+msgid "On Posts Ads - Before Content"
+msgstr ""
+
+#: inc/options-definition.php:2802
+msgid "On Posts Ads - After Content"
+msgstr ""
+
+#: inc/options-definition.php:2807
+msgid "On Posts Ads - Inside Content"
+msgstr ""
+
+#: inc/options-definition.php:2818
+msgid "Portfolio Options"
+msgstr ""
+
+#: inc/options-definition.php:2819
+msgid ""
+"Once you modify an option here you will probably need to refresh the "
+"Portfolio Transients by using the button down below this page. If you don't "
+"see your changes being applied, start with that."
+msgstr ""
+
+#: inc/options-definition.php:2825
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/options-definition.php:2829
+msgid "WooCommerce Options"
+msgstr ""
+
+#: inc/options-definition.php:2830
+msgid "Settings for WooCommerce Plugin used with Indigo theme."
+msgstr ""
+
+#: inc/page-builder-layouts.php:12
+msgid "Mega Menu 1"
+msgstr ""
+
+#: inc/page-builder-layouts.php:14
+msgid "Five columns with custom menus."
+msgstr ""
+
+#: inc/page-builder-layouts.php:147
+msgid "Mega Menu 2"
+msgstr ""
+
+#: inc/page-builder-layouts.php:149
+msgid "Four columns with custom menus."
+msgstr ""
+
+#: inc/page-builder-layouts.php:261
+msgid "Mega Menu 3"
+msgstr ""
+
+#: inc/page-builder-layouts.php:263
+msgid "Four columns: 1 image and 3 custom menus."
+msgstr ""
+
+#: inc/page-builder-layouts.php:381
+msgid "Mega Menu 4"
+msgstr ""
+
+#: inc/page-builder-layouts.php:383
+msgid "Three columns: 3 images with custom menus."
+msgstr ""
+
+#: inc/page-builder-layouts.php:539
+msgid "Mega Menu 5"
+msgstr ""
+
+#: inc/page-builder-layouts.php:541
+msgid "Three columns: custom menu + contact data + map."
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:121
+msgid ""
+"When entering HTML content, please update module twice for the editor to "
+"store it."
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:126 
+#: inc/qi-framework/custom-fields-functions.php:508 
+#: inc/qi-framework/options-helper.php:383
+msgid "Select color"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:134 
+#: inc/qi-framework/custom-fields-functions.php:521 
+#: inc/qi-framework/options-helper.php:434
+msgid "Select file"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:135
+msgid "Once you select the file, click \"Choose File\"."
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:142
+msgid "Select Gallery"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:149 
+#: inc/qi-framework/custom-fields-functions.php:546
+msgid "Open / Close"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:164 
+#: inc/qi-framework/custom-fields-functions.php:227
+msgid "Post"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:165 
+#: inc/qi-framework/custom-fields-functions.php:228
+msgid "Slide"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:167 
+#: inc/qi-framework/custom-fields-functions.php:230
+msgid "Product"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:189
+msgid "Filter By Module Type"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:192
+msgid "All Module Types"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:237 
+#: inc/qi-framework/custom-fields-functions.php:299
+msgid "Add to list"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:245
+msgid "No portfolio modules yet? What about "
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:245 
+#: inc/qi-framework/custom-fields-functions.php:247 
+#: inc/qi-framework/custom-fields-functions.php:253 
+#: inc/qi-framework/custom-fields-functions.php:259
+msgid "adding one right now?"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:247
+msgid "No blog modules yet? What about "
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:253
+msgid "No modules yet? What about "
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:259
+msgid "No slides yet? What about "
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:320
+msgid "Select pattern"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:340 
+#: inc/qi-framework/custom-fields-functions.php:371
+msgid "Add categories to list"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:393
+msgid "Standard"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:393
+msgid "Aside"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:393
+msgid "Status"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:393
+msgid "Gallery"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:393
+msgid "Image"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:393
+msgid "Audio"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:393
+msgid "Video"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:393
+msgid "Quote"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:393
+msgid "Link"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:401
+msgid "Add formats to list"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:436
+msgid "Add fields to list"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:461
+msgid "Sidebar (default)"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:486 
+#: inc/qi-framework/custom-fields-functions.php:618 
+#: inc/qi-framework/options-helper.php:481
+msgid "Item"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:589 
+#: inc/qi-framework/custom-fields-functions.php:655 
+#: inc/qi-framework/options-helper.php:508
+msgid "Remove this item"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:638
+msgid "Upload file"
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:673
+msgid "No fields to fill yet."
+msgstr ""
+
+#: inc/qi-framework/custom-fields-functions.php:805
+msgid "Choose or search your desired icon"
+msgstr ""
+
+#. Name displayed in HTML title tag
+#. Name displayed in the Admin Menu
+#: inc/qi-framework/dashboard-helper.php:18 inc/qi-framework/options.php:44 
+#: inc/qi-framework/options.php:47
+msgid "Theme Options"
+msgstr ""
+
+#: inc/qi-framework/dashboard-helper.php:27 inc/qi-framework/gs-helper.php:46
+msgid "Getting Started"
+msgstr ""
+
+#: inc/qi-framework/dashboard-helper.php:38
+msgid "Documentation & Guides"
+msgstr ""
+
+#: inc/qi-framework/dashboard-helper.php:47
+msgid "Knowledge Base"
+msgstr ""
+
+#: inc/qi-framework/dashboard-helper.php:56
+msgid "Support"
+msgstr ""
+
+#: inc/qi-framework/dashboard-helper.php:123
+msgid "Theme Shortcuts"
+msgstr ""
+
+#: inc/qi-framework/dashboard-helper.php:124
+msgid ""
+"Easily access your Theme Options, Docs or Support by selecting from this "
+"drop down menu."
+msgstr ""
+
+#: inc/qi-framework/extras.php:88
+msgid "Page %s"
+msgstr ""
+
+#: inc/qi-framework/extras.php:247
+msgid "Home"
+msgstr ""
+
+#: inc/qi-framework/extras.php:286
+msgid "Page not Found"
+msgstr ""
+
+#: inc/qi-framework/gs-helper.php:40
+msgid ""
+"Welcome to %1$s! Please read through this page to get started setting up "
+"your theme."
+msgstr ""
+
+#: inc/qi-framework/gs-helper.php:47
+msgid "Plugins"
+msgstr ""
+
+#: inc/qi-framework/gs-helper.php:48
+msgid "FAQ & Support"
+msgstr ""
+
+#: inc/qi-framework/modules-admin.php:126
+msgid "Duplicate this item"
+msgstr ""
+
+#: inc/qi-framework/modules-admin.php:126
+msgid "Duplicate"
+msgstr ""
+
+#: inc/qi-framework/modules-admin.php:337
+msgid "Add this module to a page"
+msgstr ""
+
+#: inc/qi-framework/modules-admin.php:341
+msgid "Select a page"
+msgstr ""
+
+#: inc/qi-framework/modules-admin.php:367
+msgid ""
+"You can re-order and edit this page's modules list from here too. Don't "
+"forget to click \"Save page\" before closing this box."
+msgstr ""
+
+#: inc/qi-framework/modules-admin.php:396
+msgid "Save page"
+msgstr ""
+
+#: inc/qi-framework/modules-admin.php:423
+msgid "Page updated."
+msgstr ""
+
+#: inc/qi-framework/modules-admin.php:426
+msgid "Preview this page"
+msgstr ""
+
+#: inc/qi-framework/modules-admin.php:429
+msgid "Edit this page separatedly"
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:570
+msgid ""
+"By clicking OK you will replace some of your theme options. Are you sure?"
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:571 
+#: inc/qi-framework/options-helper.php:571
+msgid "Set Skin"
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:579
+msgid "No backups yet"
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:586
+msgid "Click OK to backup your current saved options."
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:587
+msgid ""
+"Warning: All of your current saved options will be replaced with the data "
+"from your last backup! Proceed?"
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:588
+msgid "Last Backup : "
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:590 
+#: inc/qi-framework/options-helper.php:590
+msgid "Restore Options"
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:600
+msgid ""
+"Click OK to import these options. All your theme options will be replaced!"
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:602 
+#: inc/qi-framework/options-helper.php:602
+msgid "Select All"
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:603 
+#: inc/qi-framework/options-helper.php:603
+msgid "Import Options"
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:607
+msgid ""
+"Click OK to import Dummy Content to your WordPress install. Several WP "
+"options and all your theme options will be replaced!"
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:608
+msgid "Dummy Content successfully imported. Page needs to be refreshed."
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:609 
+#: inc/qi-framework/options-helper.php:614
+msgid ""
+"This may take a while. Please, don't refresh your browser till you get a "
+"nice message saying it went ok. ;)"
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:610 
+#: inc/qi-framework/options-helper.php:610
+msgid "Import Dummy Content"
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:615 
+#: inc/qi-framework/options-helper.php:615
+msgid "Open Importer"
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:620 
+#: inc/qi-framework/options-helper.php:620
+msgid "Activate Typekit"
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:624 
+#: inc/qi-framework/options-helper.php:624
+msgid "Check Now"
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:628 
+#: inc/qi-framework/options-helper.php:628
+msgid "Refresh Transients"
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:725
+msgid ""
+"Typekit kit activated on theme! Please refresh this page before saving other "
+"options. For added beauty, we recommend setting the body size on 20px."
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:755
+msgid "You theme was sucesfully verified."
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:792
+msgid "Browse Available Ready Made Sites"
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:797
+msgid "View Details"
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:798 
+#: inc/qi-framework/options-helper.php:842
+msgid "View Online Demo"
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:828
+msgid "Back to Packs"
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:840
+msgid "* Images are not included"
+msgstr ""
+
+#: inc/qi-framework/options-helper.php:843
+msgid "Install This Pack"
+msgstr ""
+
+#: inc/qi-framework/options.php:134
+msgid "Theme settings updated successfully."
+msgstr ""
+
+#: inc/qi-framework/options.php:146
+msgid "Save Settings"
+msgstr ""
+
+#: inc/qi-framework/options.php:147
+msgid "Reset This Tab"
+msgstr ""
+
+#: inc/qi-framework/qi-framework.php:159
+msgid "Upload or choose a Media File"
+msgstr ""
+
+#: inc/qi-framework/qi-framework.php:160
+msgid "Choose File"
+msgstr ""
+
+#: inc/qi-framework/qi-framework.php:161
+msgid "Back to Top"
+msgstr ""
+
+#: inc/qi-framework/qi-framework.php:162
+msgid ""
+"There was an error with the import. Please try to import it directly from "
+"the xml file located in your theme folder."
+msgstr ""
+
+#: inc/qi-framework/qi-framework.php:163
+msgid "Portfolio transients successfully refreshed."
+msgstr ""
+
+#: inc/qi-framework/qi-framework.php:164
+msgid "Add this Module to a Page"
+msgstr ""
+
+#: inc/qi-framework/qi-framework.php:165
+msgid "Duplicate this Module"
+msgstr ""
+
+#: inc/qi-framework/qi-framework.php:166
+msgid "Please publish this module first."
+msgstr ""
+
+#: inc/qi-framework/qi-framework.php:167
+msgid ""
+"Click OK to import this Ready Made Site into your WordPress install. Several "
+"WordPress options and all your theme options will be replaced!"
+msgstr ""
+
+#: inc/qi-framework/qi-framework.php:168
+msgid ""
+"** Also, it is recommended to install the plugins being used on the pack "
+"before importing the content. Click cancel now to check that first."
+msgstr ""
+
+#: inc/qi-framework/qi-framework.php:169
+msgid "Ready Made Site successfully imported. Page needs to be refreshed."
+msgstr ""
+
+#: inc/qi-framework/qi-framework.php:170
+msgid "Save or Update this page to reload Visual Editor on this item."
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:34 inc/qi-framework/template-tags.php:102
+msgid "Post navigation"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:44
+msgid "Previous"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:48
+msgid "Next"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:70
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:74
+msgid "Older posts"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:78
+msgid "Newer posts"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:111
+msgid "Previous:"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:112
+msgid "Next:"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:134
+msgid "Pingback:"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:134 
+#: inc/qi-framework/template-tags.php:153
+msgid "Edit"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:144
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:150
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:163
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:260 
+#: inc/qi-framework/template-tags.php:286
+msgid "by %1$s"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:263 
+#: inc/qi-framework/template-tags.php:289
+msgid "View all posts by %s"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:282
+msgid "Posts by "
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:340
+msgid "Tagged: %2$s."
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:345
+msgid "This entry was posted in %1$s. Tagged: %2$s."
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:347
+msgid "This entry was posted in %1$s."
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:378
+msgid "Tagged: %1$s"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:411
+msgid "Author: %s"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:413
+msgid "Year: %s"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:413
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:415
+msgid "Month: %s"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:415
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:417
+msgid "Day: %s"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:417
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:420
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:422
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:424
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:426
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:428
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:430
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:432
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:434
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:436
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#. translators: 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/qi-framework/template-tags.php:443
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/qi-framework/template-tags.php:445
+msgid "Archives"
+msgstr ""
+
+#: inc/qi-framework/update.php:84
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: inc/qi-framework/update.php:88
+msgid "An unknown error occurred"
+msgstr ""
+
+#: inc/qi-framework/welcome-msg.php:20
+msgid "We are glad you decided to use "
+msgstr ""
+
+#: inc/qi-framework/welcome-msg.php:20
+msgid " on this site"
+msgstr ""
+
+#: inc/qi-framework/welcome-msg.php:27
+msgid ""
+"The documentation file for this theme has lots of helpful sections, "
+"including a nice <strong>Getting Started</strong> with step by step "
+"descriptions on how to start working with it."
+msgstr ""
+
+#: inc/qi-framework/welcome-msg.php:27
+msgid "You can find it here."
+msgstr ""
+
+#: inc/qi-framework/welcome-msg.php:31
+msgid ""
+"We update the theme from time to time to keep making it even better. <a "
+"href=\"http://twitter.com/quadroIdeas\">Follow us on Twitter</a> to get "
+"notified about updates as soon as they see the web-light."
+msgstr ""
+
+#: inc/qi-framework/welcome-msg.php:35
+msgid ""
+"Should you need help with the theme and you can't find the answer on the "
+"documentation file, we'll be ready to cover you on our"
+msgstr ""
+
+#: inc/qi-framework/welcome-msg.php:35
+msgid "Support Forum."
+msgstr ""
+
+#: inc/qi-framework/welcome-msg.php:39
+msgid ""
+"Also, we tend to publish cool posts on maximizing the use of our themes, "
+"with clever implementations and extra customization tips. <a href=\"http:"
+"//quadroideas.com/blog\" target=\"_blank\">Read them here</a>."
+msgstr ""
+
+#: inc/qi-framework/welcome-msg.php:44
+msgid ""
+"(This welcome message will be gone after you refresh the page or navigate to "
+"another screen. <a href=\"#\" class=\"welc-msg-dismiss\">Dismiss now &raquo;"
+"</a>)"
+msgstr ""

@@ -1,0 +1,233 @@
+<?php
+/**
+ * Filter controls for Services.
+ *
+ * Sorry by duplicating code but there is no time to modularize, then I just copy the same code used for markets.
+ * TO-DO: Create a function to create filters.
+ */
+
+?>
+
+<div class="filter-bar">
+
+  <div class="filters">
+
+    <?php
+    /**
+     * Markets filter
+     */
+    create_project_filter($post, 'market', 'qm', array(
+    	'singular' => 'Market',
+    	'subitem_singular' => 'Submarket',
+    	'subitem_plural' => 'Submarkets',
+    ));
+    ?>
+    
+    
+    
+    <?php
+    /**
+     * Services filter.
+     */
+    create_project_filter($post, 'service', 'qs', array(
+    	'singular' => 'Service',
+    	'subitem_singular' => 'Subservice',
+    	'subitem_plural' => 'Subservices',
+    ));
+    ?>
+    
+    
+    
+    <?php
+    /**
+     * Locations filter.
+     */
+    $selected_location = $selected_sublocation = false;
+    if ( is_singular( 'location' ) ) {
+      if ( !! $post->post_parent ) {
+        $selected_sublocation = $post;
+        $selected_location = get_post( $post->post_parent );
+      } else {
+        $selected_location = $post;
+      }
+    }
+
+    $location_query = array(
+      'post_type'       => 'location',
+      'posts_per_page'  => -1,
+      'orderby'         => 'menu_order',
+      'post_parent'     => 0,
+      'urs_fields'      => array( 'post_title' ),
+      'meta_query'      => array(
+        'relation'  => 'OR',
+        array(
+          'key'     => '_hide_in_nav',
+          'compare' => '!=',
+          'value'   => '1',
+        ),
+        array(
+          'key'     => '_hide_in_nav',
+          'compare' => 'NOT EXISTS',
+        )
+      ),
+    );
+
+    $main_locations = aecom_get_posts( $location_query );
+
+    if ( $selected_location ) {
+      $location_query['post_parent'] = $selected_location->ID;
+      $sublocations = aecom_get_posts( $location_query );
+      // if the service we're currently viewing is a hidden subservice,
+      // and it has no non-hidden siblings, then add the current service
+      // to the menu -- otherwise the menu will be empty.
+      if ( empty( $sublocations ) && aecom_get_post_meta( $post->ID, 'hide_in_nav' ) ) {
+        $sublocations = array( $post );
+      }
+    }
+
+    ?>
+
+    <div class="filter select-location has-dropdown">
+      <h3><a href="#" class="ae-dropdown-toggle"><?php echo ( $selected_location ?
+        sprintf(
+          esc_html_x( 'Location: %s', 'dropdown text', 'aecom' ),
+          apply_filters( 'the_title', $selected_location->post_title )
+        ) :
+        esc_html__( 'Select a Location', 'aecom' )
+      ); ?></a></h3>
+      <div class="ae-dropdown"><div class="ae-dropdown-content locations">
+        <ul class="col">
+          <?php foreach ( $main_locations as $location ) { ?>
+            <li><a href="<?php echo esc_url( get_post_type_archive_link( 'project' ) ) . '?ql[]=' . $location->ID; ?>">
+              <?php echo apply_filters( 'the_title', $location->post_title ); ?>
+            </a></li>
+          <?php } ?>
+        </ul><!-- .col -->
+      </div></div>
+    </div>
+
+    <?php if ( $sublocations ) : ?>
+
+    <div class="filter select-sublocation has-dropdown">
+      <h3><a href="#" class="ae-dropdown-toggle"><?php echo ( ! empty( $selected_sublocation ) ?
+        sprintf(
+          esc_html_x( 'Sublocation: %s', 'dropdown text', 'aecom' ),
+          apply_filters( 'the_title', $selected_sublocation->post_title )
+        ) :
+        esc_html__( 'Select a Sublocation', 'aecom' )
+      ); ?></a></h3>
+      <div class="ae-dropdown"><div class="ae-dropdown-content sublocations">
+        <h3 class="ae-dropdown-title"><?php printf( esc_html__( 'Sublocations of %s', 'aecom' ), apply_filters( 'the_title', $selected_location->post_title ) ) ;?></h3>
+        <ul class="col">
+          <?php foreach ( $sublocations as $location ) { ?>
+            <li><a href="<?php echo esc_url( get_post_type_archive_link( 'project' ) ) . '?ql[]=' . $location->ID; ?>"><?php echo apply_filters( 'the_title', $location->post_title ); ?></a></li><?php
+          } ?>
+        </ul><!-- .col -->
+      </div></div>
+    </div>
+
+    <?php endif; ?>
+    
+    
+    
+    <?php
+    /**
+     * Brands filter.
+     */
+    $selected_brand = $selected_subbrand = false;
+    if ( is_singular( 'brand' ) ) {
+      if ( !! $post->post_parent ) {
+        $selected_subbrand = $post;
+        $selected_brand = get_post( $post->post_parent );
+      } else {
+        $selected_brand = $post;
+      }
+    }
+
+    $brand_query = array(
+      'post_type'       => 'brand',
+      'posts_per_page'  => -1,
+      'orderby'         => 'menu_order',
+      'post_parent'     => 0,
+      'urs_fields'      => array( 'post_title' ),
+      'meta_query'      => array(
+        'relation'  => 'OR',
+        array(
+          'key'     => '_hide_in_nav',
+          'compare' => '!=',
+          'value'   => '1',
+        ),
+        array(
+          'key'     => '_hide_in_nav',
+          'compare' => 'NOT EXISTS',
+        )
+      ),
+    );
+
+    $main_brands = aecom_get_posts( $brand_query );
+
+    if ( $selected_brand ) {
+      $brand_query['post_parent'] = $brand_location->ID;
+      $subbrands = aecom_get_posts( $brand_query );
+      // if the service we're currently viewing is a hidden subservice,
+      // and it has no non-hidden siblings, then add the current service
+      // to the menu -- otherwise the menu will be empty.
+      if ( empty( $subbrands ) && aecom_get_post_meta( $post->ID, 'hide_in_nav' ) ) {
+        $subbrands = array( $post );
+      }
+    }
+
+    ?>
+
+    <div class="filter select-brand has-dropdown">
+      <h3><a href="#" class="ae-dropdown-toggle"><?php echo ( $selected_brand ?
+        sprintf(
+          esc_html_x( 'Brand: %s', 'dropdown text', 'aecom' ),
+          apply_filters( 'the_title', $selected_brand->post_title )
+        ) :
+        esc_html__( 'Select a Brand', 'aecom' )
+      ); ?></a></h3>
+      <div class="ae-dropdown"><div class="ae-dropdown-content brands">
+        <ul class="col">
+          <?php foreach ( $main_brands as $brand ) { ?>
+            <li><a href="<?php echo esc_url( get_post_type_archive_link( 'project' ) ) . '?qb[]=' . $brand->ID; ?>">
+              <?php echo apply_filters( 'the_title', $brand->post_title ); ?>
+            </a></li>
+          <?php } ?>
+        </ul><!-- .col -->
+      </div></div>
+    </div>
+
+    <?php if ( $subbrands ) : ?>
+
+    <div class="filter select-subbrand has-dropdown">
+      <h3><a href="#" class="ae-dropdown-toggle"><?php echo ( ! empty( $selected_subbrand ) ?
+        sprintf(
+          esc_html_x( 'Subbrand: %s', 'dropdown text', 'aecom' ),
+          apply_filters( 'the_title', $selected_subbrand->post_title )
+        ) :
+        esc_html__( 'Select a Subbrand', 'aecom' )
+      ); ?></a></h3>
+      <div class="ae-dropdown"><div class="ae-dropdown-content subbrands">
+        <h3 class="ae-dropdown-title"><?php printf( esc_html__( 'Subbrands of %s', 'aecom' ), apply_filters( 'the_title', $selected_subbrand->post_title ) ) ;?></h3>
+        <ul class="col">
+          <?php foreach ( $subbrands as $brand ) { ?>
+            <li><a href="<?php echo esc_url( get_post_type_archive_link( 'project' ) ) . '?qb[]=' . $brand->ID; ?>"><?php echo apply_filters( 'the_title', $brand->post_title ); ?></a></li><?php
+          } ?>
+        </ul><!-- .col -->
+      </div></div>
+    </div>
+
+    <?php endif; ?>
+    
+    <?php
+    
+    ?>
+
+  </div><!-- .filters -->
+
+  <div class="search">
+    <?php aecom_search_form( 'project' ); ?>
+  </div><!-- .search -->
+
+</div>

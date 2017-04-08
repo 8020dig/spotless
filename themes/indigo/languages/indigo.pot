@@ -1,0 +1,2166 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Indigo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-07 18:31+0000\n"
+"POT-Revision-Date: Thu Aug 04 2016 21:34:52 GMT-0300 (ART)\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: comments.php:30
+msgctxt "comments title"
+msgid "One comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:49
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:50
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:51
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:61
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:66
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:67
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: content-classic-header.php:50 content-headlines.php:56 content-metro.php:56 
+#: content-single-header.php:58
+msgid "In %1$s"
+msgstr ""
+
+#: content-classic-header.php:57 content-headlines.php:63 
+#: content-single-header.php:65
+msgid "Comment"
+msgstr ""
+
+#: content-classic-header.php:57 content-headlines.php:63 
+#: content-single-header.php:65
+msgid "1 Comment"
+msgstr ""
+
+#: content-classic-header.php:57 content-headlines.php:63 
+#: content-single-header.php:65
+msgid "% Comments"
+msgstr ""
+
+#: content-classic.php:21 content-page.php:14 content-single.php:19
+msgid "Pages:"
+msgstr ""
+
+#: content-classic.php:34 content-single.php:32
+msgid "%1$s"
+msgstr ""
+
+#: content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: content-none.php:19
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: functions.php:63
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:64
+msgid "User/Login Menu"
+msgstr ""
+
+#: functions.php:161
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:418
+msgid ""
+"This plugin enables the Modules post type that you can use to create Modular "
+"Pages."
+msgstr ""
+
+#: functions.php:430
+msgid ""
+"This plugin enables the Portfolio custom post type that we use to create "
+"Portoflio Items."
+msgstr ""
+
+#: functions.php:442
+msgid ""
+"This plugin enables Quadro Ideas Shortcodes. For now, it only contains the "
+"fabulous Typed.js effect. Install it if you want to create animated-typed "
+"sentences."
+msgstr ""
+
+#: functions.php:451
+msgid ""
+"Build page layouts using the widgets you know and love using this simple "
+"drag and drop page builder."
+msgstr ""
+
+#: functions.php:460
+msgid "A collection of widgets to be used together with Page Builder plugin."
+msgstr ""
+
+#: functions.php:469
+msgid ""
+"Responsive Lightbox allows users to view larger versions of images and "
+"galleries in a lightbox (overlay) effect optimized for mobile devices."
+msgstr ""
+
+#: functions.php:479
+msgid ""
+"Mega Menus plugin lets you create visual enhanced submenus with \"post "
+"style\" content."
+msgstr ""
+
+#: functions.php:488
+msgid ""
+"Crelly Slider is a Free / Open Source WordPress slider with a powerful Drag "
+"& Drop Builder. You can add Texts and Images using animations and "
+"transitions. It&#39;s perfect to display your creative content in posts and "
+"pages. With it&#39;s tons of features, Crelly Slider is the best free "
+"solution for your online WebSite."
+msgstr ""
+
+#: functions.php:509
+msgid "Required Plugins Area (Install/Update)"
+msgstr ""
+
+#: functions.php:510
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:511
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:512
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:515
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s plugins."
+" Contact the administrator of this site for help on getting the plugins "
+"installed."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:516
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:517
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:518
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s plugin."
+" Contact the administrator of this site for help on getting the plugin "
+"activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:519
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:520
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:521
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:522
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:523
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:524
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions.php:525
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: module-authors.php:83 module-authors.php:87 inc/theme-functions.php:367 
+#: inc/theme-functions.php:371
+msgid "Posts by "
+msgstr ""
+
+#: module-authors.php:109 inc/theme-functions.php:390
+msgid "Follow"
+msgstr ""
+
+#: module-authors.php:109 inc/theme-functions.php:390
+msgid "on"
+msgstr ""
+
+#: module-display.php:118 module-featured.php:117 module-featured.php:122 
+#: module-featured.php:148 module-pslider.php:93 module-videoposts.php:87 
+#: inc/theme-functions.php:68
+msgid "Read more"
+msgstr ""
+
+#: module-portfolio.php:95 module-portfolio.php:106
+msgid "All"
+msgstr ""
+
+#: module-wrapper.php:65 sidebar.php:24 inc/quadro-woocommerce.php:89
+msgid "Would like to activate some Widgets?"
+msgstr ""
+
+#: module-wrapper.php:66 sidebar.php:25 inc/quadro-woocommerce.php:90
+msgid "Go to Appearance > Widgets. Just like that!"
+msgstr ""
+
+#: search.php:24
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:3 searchform.php:4
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:6
+msgid "Search"
+msgstr ""
+
+#. Name of the template
+msgid "Page - Centered Content"
+msgstr ""
+
+#. Name of the template
+msgid "Page - Full Width"
+msgstr ""
+
+#. Name of the template
+msgid "Page - Left Sidebar"
+msgstr ""
+
+#. Name of the template
+msgid "Modular Template"
+msgstr ""
+
+#: inc/animation-definitions.php:14 inc/custom-fields-definition.php:1778 
+#: inc/custom-fields-definition.php:2306
+msgid "None"
+msgstr ""
+
+#: inc/animation-definitions.php:21
+msgid "FadeIn"
+msgstr ""
+
+#: inc/animation-definitions.php:28
+msgid "FadeIn Up"
+msgstr ""
+
+#: inc/animation-definitions.php:35
+msgid "FadeIn Down"
+msgstr ""
+
+#: inc/animation-definitions.php:42
+msgid "FadeIn Left"
+msgstr ""
+
+#: inc/animation-definitions.php:49
+msgid "FadeIn Right"
+msgstr ""
+
+#: inc/animation-definitions.php:56
+msgid "FadeIn Up Big"
+msgstr ""
+
+#: inc/animation-definitions.php:63
+msgid "FadeIn Down Big"
+msgstr ""
+
+#: inc/animation-definitions.php:70
+msgid "FadeIn Left Big"
+msgstr ""
+
+#: inc/animation-definitions.php:77
+msgid "FadeIn Right Big"
+msgstr ""
+
+#: inc/animation-definitions.php:84
+msgid "BounceIn"
+msgstr ""
+
+#: inc/animation-definitions.php:91
+msgid "BounceIn Up"
+msgstr ""
+
+#: inc/animation-definitions.php:98
+msgid "BounceIn Down"
+msgstr ""
+
+#: inc/animation-definitions.php:105
+msgid "BounceIn Left"
+msgstr ""
+
+#: inc/animation-definitions.php:112
+msgid "BounceIn Right"
+msgstr ""
+
+#: inc/animation-definitions.php:119
+msgid "FlipIn X"
+msgstr ""
+
+#: inc/animation-definitions.php:126
+msgid "FlipIn Y"
+msgstr ""
+
+#: inc/animation-definitions.php:133
+msgid "Rotate In Down Left"
+msgstr ""
+
+#: inc/animation-definitions.php:140
+msgid "Rotate In Down Right"
+msgstr ""
+
+#: inc/animation-definitions.php:147
+msgid "Rotate In Up Left"
+msgstr ""
+
+#: inc/animation-definitions.php:154
+msgid "Rotate In Up Right"
+msgstr ""
+
+#: inc/animation-definitions.php:161
+msgid "SlideIn Up"
+msgstr ""
+
+#: inc/animation-definitions.php:168
+msgid "SlideIn Down"
+msgstr ""
+
+#: inc/animation-definitions.php:175
+msgid "SlideIn Left"
+msgstr ""
+
+#: inc/animation-definitions.php:182
+msgid "SlideIn Right"
+msgstr ""
+
+#: inc/animation-definitions.php:189
+msgid "ZoomIn"
+msgstr ""
+
+#: inc/animation-definitions.php:196
+msgid "ZoomIn Up"
+msgstr ""
+
+#: inc/animation-definitions.php:203
+msgid "ZoomIn Down"
+msgstr ""
+
+#: inc/animation-definitions.php:210
+msgid "ZoomIn Left"
+msgstr ""
+
+#: inc/animation-definitions.php:217
+msgid "ZoomIn Right"
+msgstr ""
+
+#: inc/animation-definitions.php:224
+msgid "Bounce"
+msgstr ""
+
+#: inc/animation-definitions.php:231
+msgid "Flash"
+msgstr ""
+
+#: inc/animation-definitions.php:238
+msgid "Pulse"
+msgstr ""
+
+#: inc/animation-definitions.php:245
+msgid "Swing"
+msgstr ""
+
+#: inc/animation-definitions.php:252
+msgid "Tada"
+msgstr ""
+
+#: inc/animation-definitions.php:259
+msgid "FadeIn Left Up"
+msgstr ""
+
+#: inc/animation-definitions.php:266
+msgid "FadeIn Up Right"
+msgstr ""
+
+#: inc/custom-fields-definition.php:52
+msgid "Post Header Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:58
+msgid "Header Size"
+msgstr ""
+
+#: inc/custom-fields-definition.php:62 inc/custom-fields-definition.php:193 
+#: inc/custom-fields-definition.php:1157 inc/custom-fields-definition.php:1289
+msgid "Regular"
+msgstr ""
+
+#: inc/custom-fields-definition.php:63 inc/custom-fields-definition.php:194
+msgid "Big"
+msgstr ""
+
+#: inc/custom-fields-definition.php:64 inc/custom-fields-definition.php:1156
+msgid "Giant"
+msgstr ""
+
+#: inc/custom-fields-definition.php:69
+msgid "Use as Background"
+msgstr ""
+
+#: inc/custom-fields-definition.php:73
+msgid "Featured Image"
+msgstr ""
+
+#: inc/custom-fields-definition.php:74 inc/custom-fields-definition.php:1976
+msgid "Solid Color"
+msgstr ""
+
+#: inc/custom-fields-definition.php:79
+msgid "Back color"
+msgstr ""
+
+#: inc/custom-fields-definition.php:85
+msgid "Text color"
+msgstr ""
+
+#: inc/custom-fields-definition.php:89
+msgid "Automatic"
+msgstr ""
+
+#: inc/custom-fields-definition.php:90 inc/custom-fields-definition.php:164
+msgid "Dark"
+msgstr ""
+
+#: inc/custom-fields-definition.php:91 inc/custom-fields-definition.php:163
+msgid "Light"
+msgstr ""
+
+#: inc/custom-fields-definition.php:96 inc/custom-fields-definition.php:411
+msgid "Dark Background Overlay"
+msgstr ""
+
+#: inc/custom-fields-definition.php:100 inc/custom-fields-definition.php:130 
+#: inc/custom-fields-definition.php:416 inc/custom-fields-definition.php:1715
+msgid "Enabled"
+msgstr ""
+
+#: inc/custom-fields-definition.php:101 inc/custom-fields-definition.php:129 
+#: inc/custom-fields-definition.php:415 inc/custom-fields-definition.php:1716
+msgid "Disabled"
+msgstr ""
+
+#: inc/custom-fields-definition.php:111
+msgid "Modular Template Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:117 inc/custom-fields-definition.php:633
+msgid "Choose Modules to Show"
+msgstr ""
+
+#: inc/custom-fields-definition.php:125
+msgid "Modules Navigation"
+msgstr ""
+
+#: inc/custom-fields-definition.php:140
+msgid "Page Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:146
+msgid "Site Header Style"
+msgstr ""
+
+#: inc/custom-fields-definition.php:150 inc/custom-fields-definition.php:162
+msgid "Same as site"
+msgstr ""
+
+#: inc/custom-fields-definition.php:151
+msgid "With background"
+msgstr ""
+
+#: inc/custom-fields-definition.php:152 inc/custom-fields-definition.php:1977
+msgid "Transparent"
+msgstr ""
+
+#: inc/custom-fields-definition.php:154
+msgid ""
+"Overrides Theme Options Header Style Setting. Note: won't apply for Header "
+"Layout 7."
+msgstr ""
+
+#: inc/custom-fields-definition.php:158
+msgid "Color for Transparent Site Header"
+msgstr ""
+
+#: inc/custom-fields-definition.php:169 inc/custom-fields-definition.php:628
+msgid "Select Sidebar"
+msgstr ""
+
+#: inc/custom-fields-definition.php:174
+msgid "Hide Page Header (homepage use, for example)"
+msgstr ""
+
+#: inc/custom-fields-definition.php:179
+msgid "Page Header Position"
+msgstr ""
+
+#: inc/custom-fields-definition.php:183 inc/custom-fields-definition.php:1166 
+#: inc/custom-fields-definition.php:2090 inc/custom-fields-definition.php:2137
+msgid "Center"
+msgstr ""
+
+#: inc/custom-fields-definition.php:184 inc/custom-fields-definition.php:623 
+#: inc/custom-fields-definition.php:1167 inc/custom-fields-definition.php:2091 
+#: inc/custom-fields-definition.php:2138
+msgid "Left"
+msgstr ""
+
+#: inc/custom-fields-definition.php:189
+msgid "Page Header Size"
+msgstr ""
+
+#: inc/custom-fields-definition.php:199
+msgid "Breadcrumbs on this page"
+msgstr ""
+
+#: inc/custom-fields-definition.php:203 inc/custom-fields-definition.php:1082 
+#: inc/custom-fields-definition.php:1402 inc/custom-fields-definition.php:1412 
+#: inc/custom-fields-definition.php:1492 inc/custom-fields-definition.php:1503 
+#: inc/custom-fields-definition.php:1525 inc/custom-fields-definition.php:2240 
+#: inc/custom-fields-definition.php:2250 inc/custom-fields-definition.php:2330
+msgid "Show"
+msgstr ""
+
+#: inc/custom-fields-definition.php:204 inc/custom-fields-definition.php:1083 
+#: inc/custom-fields-definition.php:1403 inc/custom-fields-definition.php:1413 
+#: inc/custom-fields-definition.php:1494 inc/custom-fields-definition.php:1504 
+#: inc/custom-fields-definition.php:1526 inc/custom-fields-definition.php:2241 
+#: inc/custom-fields-definition.php:2251 inc/custom-fields-definition.php:2331
+msgid "Hide"
+msgstr ""
+
+#: inc/custom-fields-definition.php:209 inc/custom-fields-definition.php:361
+msgid "Title color"
+msgstr ""
+
+#: inc/custom-fields-definition.php:215
+msgid "Header Back color"
+msgstr ""
+
+#: inc/custom-fields-definition.php:221
+msgid "Use Picture as Header Back (uses Feat. Image)"
+msgstr ""
+
+#: inc/custom-fields-definition.php:226
+msgid "Display Tagline"
+msgstr ""
+
+#: inc/custom-fields-definition.php:231
+msgid "Tagline text"
+msgstr ""
+
+#: inc/custom-fields-definition.php:238
+msgid "Use Picture as Page Back"
+msgstr ""
+
+#: inc/custom-fields-definition.php:243
+msgid "Background for this Page"
+msgstr ""
+
+#: inc/custom-fields-definition.php:253
+msgid "Module Type"
+msgstr ""
+
+#: inc/custom-fields-definition.php:259
+msgid "Select Module Type"
+msgstr ""
+
+#: inc/custom-fields-definition.php:270
+msgid "Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:280
+msgid "Module Style"
+msgstr ""
+
+#: inc/custom-fields-definition.php:286
+msgid "Module Header"
+msgstr ""
+
+#: inc/custom-fields-definition.php:291
+msgid "Header Layout"
+msgstr ""
+
+#: inc/custom-fields-definition.php:298
+msgid "No Header"
+msgstr ""
+
+#: inc/custom-fields-definition.php:304
+msgid "Fullwidth"
+msgstr ""
+
+#: inc/custom-fields-definition.php:310
+msgid "Integrated"
+msgstr ""
+
+#: inc/custom-fields-definition.php:316
+msgid "Left Header"
+msgstr ""
+
+#: inc/custom-fields-definition.php:322
+msgid "Right Header"
+msgstr ""
+
+#: inc/custom-fields-definition.php:328
+msgid "Left Header - 50%"
+msgstr ""
+
+#: inc/custom-fields-definition.php:334
+msgid "Right Header - 50%"
+msgstr ""
+
+#: inc/custom-fields-definition.php:343
+msgid "Module Introduction"
+msgstr ""
+
+#: inc/custom-fields-definition.php:348
+msgid "Button Text"
+msgstr ""
+
+#: inc/custom-fields-definition.php:352
+msgid "(Optional) Leave empty for no button."
+msgstr ""
+
+#: inc/custom-fields-definition.php:355
+msgid "Button Link"
+msgstr ""
+
+#: inc/custom-fields-definition.php:367
+msgid "Header background color"
+msgstr ""
+
+#: inc/custom-fields-definition.php:376
+msgid "Use Picture as Header Background"
+msgstr ""
+
+#: inc/custom-fields-definition.php:379
+msgid "Header Image Background"
+msgstr ""
+
+#: inc/custom-fields-definition.php:384
+msgid "Module Background"
+msgstr ""
+
+#: inc/custom-fields-definition.php:389
+msgid "Background color"
+msgstr ""
+
+#: inc/custom-fields-definition.php:395
+msgid "Background pattern"
+msgstr ""
+
+#: inc/custom-fields-definition.php:403
+msgid "Use Picture as Background"
+msgstr ""
+
+#: inc/custom-fields-definition.php:406
+msgid "Image Background"
+msgstr ""
+
+#: inc/custom-fields-definition.php:424
+msgid "Fixed Background"
+msgstr ""
+
+#: inc/custom-fields-definition.php:432
+msgid "Portfolio Item Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:438
+msgid "Item Style"
+msgstr ""
+
+#: inc/custom-fields-definition.php:445
+msgid "Content on Right w/Expanded Media"
+msgstr ""
+
+#: inc/custom-fields-definition.php:451
+msgid "Content on Right w/Media Slider"
+msgstr ""
+
+#: inc/custom-fields-definition.php:457
+msgid "Content on Top w/Expanded Media"
+msgstr ""
+
+#: inc/custom-fields-definition.php:463
+msgid "Content on Top w/Media Slider"
+msgstr ""
+
+#: inc/custom-fields-definition.php:469
+msgid "Masonry Grid (three columns)"
+msgstr ""
+
+#: inc/custom-fields-definition.php:475
+msgid "Masonry Grid (two columns)"
+msgstr ""
+
+#: inc/custom-fields-definition.php:481
+msgid "Large Media Slider w/Slidable Content"
+msgstr ""
+
+#: inc/custom-fields-definition.php:487
+msgid "As Created & Formatted"
+msgstr ""
+
+#: inc/custom-fields-definition.php:496
+msgid "Use Feat. Image on"
+msgstr ""
+
+#: inc/custom-fields-definition.php:500
+msgid "Item Header"
+msgstr ""
+
+#: inc/custom-fields-definition.php:501
+msgid "Item Media"
+msgstr ""
+
+#: inc/custom-fields-definition.php:506
+msgid "Video Position"
+msgstr ""
+
+#: inc/custom-fields-definition.php:510
+msgid "After Gallery/Image"
+msgstr ""
+
+#: inc/custom-fields-definition.php:511
+msgid "Before Gallery/Image"
+msgstr ""
+
+#: inc/custom-fields-definition.php:516
+msgid "Keep video out of slider"
+msgstr ""
+
+#: inc/custom-fields-definition.php:521
+msgid "External Link"
+msgstr ""
+
+#: inc/custom-fields-definition.php:526
+msgid "Link Title"
+msgstr ""
+
+#: inc/custom-fields-definition.php:531
+msgid "Wrap images with links"
+msgstr ""
+
+#: inc/custom-fields-definition.php:534
+msgid ""
+"Links images in galleries to their own files (useful for use with lightbox "
+"plugins)."
+msgstr ""
+
+#: inc/custom-fields-definition.php:537
+msgid "View All Items URL"
+msgstr ""
+
+#: inc/custom-fields-definition.php:540 inc/custom-fields-definition.php:546
+msgid "Note: will override Theme Options setting."
+msgstr ""
+
+#: inc/custom-fields-definition.php:543
+msgid "View All Items Text"
+msgstr ""
+
+#: inc/custom-fields-definition.php:549
+msgid "Data Fields"
+msgstr ""
+
+#: inc/custom-fields-definition.php:552
+msgid "Add new data fields in"
+msgstr ""
+
+#: inc/custom-fields-definition.php:552
+msgid "Theme Options >> Portfolio Tab"
+msgstr ""
+
+#: inc/custom-fields-definition.php:552
+msgid "Fields with completed info will be shown on this Item's view."
+msgstr ""
+
+#: inc/custom-fields-definition.php:564
+msgid "Modules Tabs Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:570
+msgid ""
+"Choose Modules to Show <small>Each selected module will create a tab for "
+"itself.</small>"
+msgstr ""
+
+#: inc/custom-fields-definition.php:579
+msgid ""
+"Tabs Titles <br /><small>These need to be added manually and in proper order."
+"<small>"
+msgstr ""
+
+#: inc/custom-fields-definition.php:582
+msgid "Tab"
+msgstr ""
+
+#: inc/custom-fields-definition.php:586
+msgid "Add another Title"
+msgstr ""
+
+#: inc/custom-fields-definition.php:595
+msgid "Image Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:601
+msgid "Note:"
+msgstr ""
+
+#: inc/custom-fields-definition.php:604
+msgid ""
+"Upload an image for this module through the Media Library or via the \"Set "
+"Featured Image\" metabox, and set it as featured image."
+msgstr ""
+
+#: inc/custom-fields-definition.php:612
+msgid "Wrapper Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:618
+msgid "Sidebar Position"
+msgstr ""
+
+#: inc/custom-fields-definition.php:622 inc/custom-fields-definition.php:1168 
+#: inc/custom-fields-definition.php:2092 inc/custom-fields-definition.php:2139
+msgid "Right"
+msgstr ""
+
+#: inc/custom-fields-definition.php:647
+msgid "Carousel Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:653 inc/custom-fields-definition.php:825 
+#: inc/custom-fields-definition.php:2200
+msgid "Margins (make full width)"
+msgstr ""
+
+#: inc/custom-fields-definition.php:657 inc/custom-fields-definition.php:829 
+#: inc/custom-fields-definition.php:1695 inc/custom-fields-definition.php:2204 
+#: inc/custom-fields-definition.php:2296
+msgid "With Margins"
+msgstr ""
+
+#: inc/custom-fields-definition.php:658 inc/custom-fields-definition.php:830 
+#: inc/custom-fields-definition.php:1694 inc/custom-fields-definition.php:2205 
+#: inc/custom-fields-definition.php:2295
+msgid "Without Margins"
+msgstr ""
+
+#: inc/custom-fields-definition.php:663 inc/custom-fields-definition.php:888 
+#: inc/custom-fields-definition.php:1071 inc/custom-fields-definition.php:2020 
+#: inc/custom-fields-definition.php:2182
+msgid "How many posts to show?"
+msgstr ""
+
+#: inc/custom-fields-definition.php:667 inc/custom-fields-definition.php:892 
+#: inc/custom-fields-definition.php:2024
+msgid "Enter -1 to show all posts."
+msgstr ""
+
+#: inc/custom-fields-definition.php:670 inc/custom-fields-definition.php:835 
+#: inc/custom-fields-definition.php:895 inc/custom-fields-definition.php:1094 
+#: inc/custom-fields-definition.php:1346 inc/custom-fields-definition.php:1536 
+#: inc/custom-fields-definition.php:2027 inc/custom-fields-definition.php:2152 
+#: inc/custom-fields-definition.php:2221 inc/custom-fields-definition.php:2337
+msgid "What to show?"
+msgstr ""
+
+#: inc/custom-fields-definition.php:674 inc/custom-fields-definition.php:839 
+#: inc/custom-fields-definition.php:899 inc/custom-fields-definition.php:2031 
+#: inc/custom-fields-definition.php:2341
+msgid "All Posts"
+msgstr ""
+
+#: inc/custom-fields-definition.php:675 inc/custom-fields-definition.php:840 
+#: inc/custom-fields-definition.php:900 inc/custom-fields-definition.php:1099 
+#: inc/custom-fields-definition.php:1541 inc/custom-fields-definition.php:2032 
+#: inc/custom-fields-definition.php:2342
+msgid "By Categories"
+msgstr ""
+
+#: inc/custom-fields-definition.php:676 inc/custom-fields-definition.php:841 
+#: inc/custom-fields-definition.php:901 inc/custom-fields-definition.php:1100 
+#: inc/custom-fields-definition.php:2343
+msgid "By Post Format"
+msgstr ""
+
+#: inc/custom-fields-definition.php:677 inc/custom-fields-definition.php:842 
+#: inc/custom-fields-definition.php:902 inc/custom-fields-definition.php:1101 
+#: inc/custom-fields-definition.php:1350 inc/custom-fields-definition.php:1542 
+#: inc/custom-fields-definition.php:2033 inc/custom-fields-definition.php:2156 
+#: inc/custom-fields-definition.php:2225 inc/custom-fields-definition.php:2344
+msgid "Custom Selection"
+msgstr ""
+
+#: inc/custom-fields-definition.php:682 inc/custom-fields-definition.php:847 
+#: inc/custom-fields-definition.php:907 inc/custom-fields-definition.php:1106 
+#: inc/custom-fields-definition.php:1358 inc/custom-fields-definition.php:1547 
+#: inc/custom-fields-definition.php:2038 inc/custom-fields-definition.php:2164 
+#: inc/custom-fields-definition.php:2349
+msgid "Choose Categories to Show"
+msgstr ""
+
+#: inc/custom-fields-definition.php:688 inc/custom-fields-definition.php:853 
+#: inc/custom-fields-definition.php:913 inc/custom-fields-definition.php:1112 
+#: inc/custom-fields-definition.php:1364 inc/custom-fields-definition.php:2170 
+#: inc/custom-fields-definition.php:2355
+msgid "Choose Post Formats to Show"
+msgstr ""
+
+#: inc/custom-fields-definition.php:693 inc/custom-fields-definition.php:858 
+#: inc/custom-fields-definition.php:918 inc/custom-fields-definition.php:1117 
+#: inc/custom-fields-definition.php:2044 inc/custom-fields-definition.php:2175 
+#: inc/custom-fields-definition.php:2360
+msgid "Choose Posts to Show"
+msgstr ""
+
+#: inc/custom-fields-definition.php:700 inc/custom-fields-definition.php:865 
+#: inc/custom-fields-definition.php:925 inc/custom-fields-definition.php:1124 
+#: inc/custom-fields-definition.php:1375 inc/custom-fields-definition.php:2052 
+#: inc/custom-fields-definition.php:2188 inc/custom-fields-definition.php:2367
+msgid "Posts Offset"
+msgstr ""
+
+#: inc/custom-fields-definition.php:703 inc/custom-fields-definition.php:868 
+#: inc/custom-fields-definition.php:928 inc/custom-fields-definition.php:1127 
+#: inc/custom-fields-definition.php:1378 inc/custom-fields-definition.php:2055 
+#: inc/custom-fields-definition.php:2191 inc/custom-fields-definition.php:2370
+msgid ""
+" Enter a number (optional). Use this option to pass over any amount of posts."
+" Delete value to cancel."
+msgstr ""
+
+#: inc/custom-fields-definition.php:706 inc/custom-fields-definition.php:871 
+#: inc/custom-fields-definition.php:931 inc/custom-fields-definition.php:1130 
+#: inc/custom-fields-definition.php:1381 inc/custom-fields-definition.php:2058 
+#: inc/custom-fields-definition.php:2194 inc/custom-fields-definition.php:2373
+msgid "Exclude Posts"
+msgstr ""
+
+#: inc/custom-fields-definition.php:709 inc/custom-fields-definition.php:874 
+#: inc/custom-fields-definition.php:934 inc/custom-fields-definition.php:1384 
+#: inc/custom-fields-definition.php:2061 inc/custom-fields-definition.php:2197
+msgid "Enter IDs for excluded posts, separated by a comma."
+msgstr ""
+
+#: inc/custom-fields-definition.php:717
+msgid "Logos Roll Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:723 inc/custom-fields-definition.php:1457
+msgid "Layout"
+msgstr ""
+
+#: inc/custom-fields-definition.php:727
+msgid "Carousel"
+msgstr ""
+
+#: inc/custom-fields-definition.php:728
+msgid "Still"
+msgstr ""
+
+#: inc/custom-fields-definition.php:733 inc/custom-fields-definition.php:1060 
+#: inc/custom-fields-definition.php:1760 inc/custom-fields-definition.php:2280
+msgid "Columns"
+msgstr ""
+
+#: inc/custom-fields-definition.php:737
+msgid "3"
+msgstr ""
+
+#: inc/custom-fields-definition.php:738
+msgid "4"
+msgstr ""
+
+#: inc/custom-fields-definition.php:739
+msgid "5"
+msgstr ""
+
+#: inc/custom-fields-definition.php:740
+msgid "6"
+msgstr ""
+
+#: inc/custom-fields-definition.php:748
+msgid "Add as many logos as you want, one at a time."
+msgstr ""
+
+#: inc/custom-fields-definition.php:749
+msgid "Logo"
+msgstr ""
+
+#: inc/custom-fields-definition.php:754
+msgid "Add another Logo"
+msgstr ""
+
+#: inc/custom-fields-definition.php:762
+msgid "Crelly Slider Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:768
+msgid "Slider Shortcode"
+msgstr ""
+
+#: inc/custom-fields-definition.php:771
+msgid ""
+"Paste in this field the shortcode for the slider as you would normally paste "
+"on any page."
+msgstr ""
+
+#: inc/custom-fields-definition.php:779
+msgid "Display Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:785
+msgid "Display Style"
+msgstr ""
+
+#: inc/custom-fields-definition.php:792 inc/custom-fields-definition.php:986 
+#: inc/custom-fields-definition.php:1033 inc/custom-fields-definition.php:1677 
+#: inc/custom-fields-definition.php:1739 inc/custom-fields-definition.php:1883
+msgid "Layout 1"
+msgstr ""
+
+#: inc/custom-fields-definition.php:798 inc/custom-fields-definition.php:992 
+#: inc/custom-fields-definition.php:1039 inc/custom-fields-definition.php:1678 
+#: inc/custom-fields-definition.php:1745 inc/custom-fields-definition.php:1889
+msgid "Layout 2"
+msgstr ""
+
+#: inc/custom-fields-definition.php:804 inc/custom-fields-definition.php:998 
+#: inc/custom-fields-definition.php:1045 inc/custom-fields-definition.php:1679 
+#: inc/custom-fields-definition.php:1751 inc/custom-fields-definition.php:1895
+msgid "Layout 3"
+msgstr ""
+
+#: inc/custom-fields-definition.php:810 inc/custom-fields-definition.php:1004 
+#: inc/custom-fields-definition.php:1051 inc/custom-fields-definition.php:1680 
+#: inc/custom-fields-definition.php:1901
+msgid "Layout 4"
+msgstr ""
+
+#: inc/custom-fields-definition.php:816 inc/custom-fields-definition.php:1681
+msgid "Layout 5"
+msgstr ""
+
+#: inc/custom-fields-definition.php:821
+msgid ""
+"To use layouts 1 or 3 <strong>large thumbnail</strong> size must be set on "
+"WordPress defaults of 1024 by 1024 pixels."
+msgstr ""
+
+#: inc/custom-fields-definition.php:882
+msgid "Flash News Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:942
+msgid "Insights Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:948 inc/custom-fields-definition.php:1783 
+#: inc/custom-fields-definition.php:1845
+msgid "Text Color"
+msgstr ""
+
+#: inc/custom-fields-definition.php:954 inc/custom-fields-definition.php:1255 
+#: inc/custom-fields-definition.php:1294 inc/custom-fields-definition.php:1594 
+#: inc/custom-fields-definition.php:1795 inc/custom-fields-definition.php:1851
+msgid "Animation"
+msgstr ""
+
+#: inc/custom-fields-definition.php:962 inc/custom-fields-definition.php:1263 
+#: inc/custom-fields-definition.php:1302 inc/custom-fields-definition.php:1602 
+#: inc/custom-fields-definition.php:1803 inc/custom-fields-definition.php:1859
+msgid "Animation Delay Between Elements (in ms.)"
+msgstr ""
+
+#: inc/custom-fields-definition.php:967
+msgid "Insights"
+msgstr ""
+
+#: inc/custom-fields-definition.php:970
+msgid "Add as many Insights as you want, one at a time."
+msgstr ""
+
+#: inc/custom-fields-definition.php:1011 inc/custom-fields-definition.php:1908
+msgid "Insight"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1012 inc/custom-fields-definition.php:1909
+msgid "Add another Insight"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1020
+msgid "Magazine Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1026
+msgid "Magazine Style"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1064 inc/custom-fields-definition.php:1765 
+#: inc/custom-fields-definition.php:2285
+msgid "Two"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1065 inc/custom-fields-definition.php:1766 
+#: inc/custom-fields-definition.php:2284
+msgid "Three"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1067
+msgid "Applies only for layouts 2 and 4."
+msgstr ""
+
+#: inc/custom-fields-definition.php:1075
+msgid "Applies only for layout 4. Enter -1 to show all posts."
+msgstr ""
+
+#: inc/custom-fields-definition.php:1078
+msgid "Excerpt"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1085
+msgid "Applies only for layout 4."
+msgstr ""
+
+#: inc/custom-fields-definition.php:1089
+msgid "Exclude Posts Without Thumbnail?"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1098
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1133 inc/custom-fields-definition.php:2376
+msgid ""
+"Enter IDs for excluded posts, separated by a comma. Using this setting "
+"disables '-1' setting for posts quantity."
+msgstr ""
+
+#: inc/custom-fields-definition.php:1141
+msgid "Slogan Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1147
+msgid "Slogan Text"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1152
+msgid "Slogan Size"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1162
+msgid "Content Align"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1173
+msgid "Use Gallery Slider as Background"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1178
+msgid "Video Background"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1181
+msgid ""
+"(It's advisable to upload more than one video format to prevent some "
+"browsers from not finding proper codecs.)"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1184
+msgid "Video Background (MP4)"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1189
+msgid "Video Background (WEBM)"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1194
+msgid "Video Background (OGV/THEORA)"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1199
+msgid "1st Button Properties"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1204 inc/custom-fields-definition.php:1232 
+#: inc/custom-fields-definition.php:1312
+msgid "Text"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1209 inc/custom-fields-definition.php:1237 
+#: inc/custom-fields-definition.php:1317
+msgid "Link"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1214 inc/custom-fields-definition.php:1242 
+#: inc/custom-fields-definition.php:1322
+msgid "Color"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1220 inc/custom-fields-definition.php:1248 
+#: inc/custom-fields-definition.php:1328
+msgid "Background"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1223 inc/custom-fields-definition.php:1251 
+#: inc/custom-fields-definition.php:1331
+msgid "Optional. Will be set by main color if not set."
+msgstr ""
+
+#: inc/custom-fields-definition.php:1227
+msgid "2nd Button Properties"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1273
+msgid "Call to Action Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1279
+msgid "Call to Action Text"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1284
+msgid "Call to Action Size"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1288
+msgid "Small"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1307
+msgid "Button Properties"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1340
+msgid "Featured Post Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1351
+msgid "Last post (from all posts)"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1352
+msgid "Last post By Categories"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1353
+msgid "Last post By Post Format"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1369
+msgid "Choose Post to Show"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1387
+msgid "Select Featured Post Style"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1391
+msgid "Content on right side"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1392
+msgid "Content on left side"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1394
+msgid ""
+"Note: To display featured posts <strong>large thumbnail</strong> size must "
+"be set on WordPress defaults of 1024 by 1024 pixels."
+msgstr ""
+
+#: inc/custom-fields-definition.php:1398
+msgid "Post Date"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1408
+msgid "Post Categories"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1423
+msgid "Portfolio Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1429
+msgid "Portfolio Style"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1436
+msgid "Masonry Portfolio"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1442
+msgid "Perfect Grid Portfolio"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1448
+msgid "Mosaic Portfolio"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1461
+msgid "Full Width, no margins"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1462
+msgid "Regular Width, with margins"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1467
+msgid "Select Columns"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1471 inc/custom-fields-definition.php:1927 
+#: inc/custom-fields-definition.php:1967
+msgid "Two Columns"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1472 inc/custom-fields-definition.php:1928
+msgid "Three Columns"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1473 inc/custom-fields-definition.php:1929
+msgid "Four Columns"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1478
+msgid "Loading Method"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1482
+msgid "Ajax"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1483
+msgid "No Ajax"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1488
+msgid "Reveal Info by Default"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1493
+msgid "Reveal on Hover"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1499
+msgid "Categories Filter"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1509
+msgid "Filter by"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1515
+msgid "Items per page"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1518
+msgid "Enter -1 to show all items in one page."
+msgstr ""
+
+#: inc/custom-fields-definition.php:1521 inc/custom-fields-definition.php:2326
+msgid "Navigation"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1531
+msgid "Portfolio Items"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1540
+msgid "All Items"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1553
+msgid "Choose Items to Show"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1560
+msgid "Order Items by"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1564
+msgid "Date"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1565
+msgid "Title"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1568 inc/custom-fields-definition.php:1579
+msgid "Note: this setting won't work for \"Custom Selection\" method."
+msgstr ""
+
+#: inc/custom-fields-definition.php:1572
+msgid "Order"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1576
+msgid "Descendant (newer first, if by date)"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1577
+msgid "Ascendant (older first, if by date)"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1588
+msgid "Pricing Tables Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1610
+msgid ""
+"Add as many Plans as you want (5 plans maximum), one at a time. Drag to "
+"reorder."
+msgstr ""
+
+#: inc/custom-fields-definition.php:1611
+msgid "Plan"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1619
+msgid "One feature per line. Begin each line with \"*!\""
+msgstr ""
+
+#: inc/custom-fields-definition.php:1626
+msgid "Add another Plan"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1634
+msgid "Gallery Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1640
+msgid "Create Gallery"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1645
+msgid "Gallery Style"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1652
+msgid "Mosaic"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1658
+msgid "Masonry"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1664
+msgid "Perfect Grid"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1673
+msgid "Gallery Layout"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1682
+msgid "Layout 6"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1683
+msgid "Layout 7"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1684
+msgid "Layout 8"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1686
+msgid ""
+"Each option represents a different layout from the style you've chosen above."
+" Combine Style and Layout to build the gallery you want."
+msgstr ""
+
+#: inc/custom-fields-definition.php:1690 inc/custom-fields-definition.php:2101 
+#: inc/custom-fields-definition.php:2291
+msgid "Margins"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1700
+msgid "Gallery Captions"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1704
+msgid "Show on Hover"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1705
+msgid "Always Visible"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1710
+msgid "Open In Lightbox"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1712
+msgid "(Needs Responsive Lightbox plugin installed.)"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1726
+msgid "Services Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1732
+msgid "Services Layout"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1764
+msgid "One"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1767
+msgid "Four"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1772
+msgid "Show for Services"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1776
+msgid "Icon"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1777 inc/theme-functions.php:747
+msgid "Image"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1789
+msgid "Icons Color"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1811
+msgid "Add as many services as you want, one at a time. Drag to reorder."
+msgstr ""
+
+#: inc/custom-fields-definition.php:1812
+msgid "Service"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1821
+msgid "Add another Service"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1829
+msgid "Slidable Insights Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1835
+msgid "Navigation Style"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1839
+msgid "Numbered"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1840
+msgid "Arrows"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1864
+msgid "Slidable Insights"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1867
+msgid "Add as many Showcase as you want, one at a time."
+msgstr ""
+
+#: inc/custom-fields-definition.php:1917
+msgid "Team Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1923 inc/custom-fields-definition.php:1961
+msgid "Select Style"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1934
+msgid "Team Members"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1937
+msgid "Add as many team members as you want, one at a time."
+msgstr ""
+
+#: inc/custom-fields-definition.php:1937
+msgid ""
+"Define which social networks you'd like to enable in the USER CONTACT "
+"METHODS section at"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1937
+msgid "Theme Options >> Social Tab"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1938
+msgid "Team Member"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1947
+msgid "Add another Team member"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1955
+msgid "Testimonials Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1965
+msgid "Slider"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1966
+msgid "One Column"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1972
+msgid "Background Style"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1982
+msgid "Background Color (optional)"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1988 inc/custom-fields-definition.php:2064
+msgid "Text Color (optional)"
+msgstr ""
+
+#: inc/custom-fields-definition.php:1997
+msgid "Add as many testimonials as you want, one at a time."
+msgstr ""
+
+#: inc/custom-fields-definition.php:1998
+msgid "Testimonial"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2006
+msgid "Add another Testimonial"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2014
+msgid "Video Posts Slider Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2075
+msgid "Slider Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2084
+msgid ""
+"Add as many slides as you want, one at a time. Drag to reorder.<br /><strong>"
+"Note</strong>: editors turn into regular textareas when sorting them or "
+"adding new ones. Update or publish to re-enable."
+msgstr ""
+
+#: inc/custom-fields-definition.php:2085
+msgid "Slide"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2098
+msgid "Add another Slide"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2105
+msgid "Disable"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2106
+msgid "Enable"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2111 inc/custom-fields-definition.php:2146
+msgid "Transition Timer (in millisecs.)"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2116
+msgid "Slider Height"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2119
+msgid ""
+" Enter a number and its unit in pixels (e.g. <strong>500px</strong>) or "
+"<strong>100vh</strong> to make it full-height (optional)."
+msgstr ""
+
+#: inc/custom-fields-definition.php:2127
+msgid "Posts Slider Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2133
+msgid "Select Caption Position"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2140
+msgid "Left & Right (alternated)"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2149
+msgid "Enter <strong>stop</strong> to disable autorun."
+msgstr ""
+
+#: inc/custom-fields-definition.php:2157
+msgid "Latest posts (from all posts)"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2158
+msgid "Latest posts By Categories"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2159
+msgid "Latest posts By Post Format"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2215
+msgid "Authors Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2226
+msgid "All Authors"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2231
+msgid "Choose Authors to Show"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2236
+msgid "Users Bio"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2246
+msgid "Users Web & Social Profiles"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2261
+msgid "Blog Module Options"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2267
+msgid "Blog Style"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2271
+msgid "Classic Style"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2272
+msgid "Teasers Style"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2273
+msgid "Headlines Style"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2274
+msgid "Masonry Style"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2275
+msgid "Metro Style"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2288 inc/custom-fields-definition.php:2299 
+#: inc/custom-fields-definition.php:2317
+msgid "(Available in Masonry Blog Style)"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2302
+msgid "Posts Loading Animation"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2307
+msgid "Type 1"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2308
+msgid "Type 2"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2309
+msgid "Type 3"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2310
+msgid "Type 4"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2311
+msgid "Type 5"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2312
+msgid "Type 6"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2313
+msgid "Type 7"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2314
+msgid "Type 8"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2320
+msgid "Posts per page"
+msgstr ""
+
+#: inc/custom-fields-definition.php:2323
+msgid ""
+"Enter -1 to show all posts in one page or leave empty to use WordPress "
+"general setting in Settings >> Reading."
+msgstr ""
+
+#: inc/custom-fields-definition.php:2333
+msgid ""
+"Keep in mind that navigation will always navigate all posts regardless of "
+"your custom selection at this screen."
+msgstr ""
+
+#: inc/quadro-widgets.php:25
+msgid "Quadro Recent Posts with thumbnails."
+msgstr ""
+
+#: inc/quadro-widgets.php:90 inc/quadro-widgets.php:175 
+#: inc/quadro-widgets.php:277 inc/quadro-widgets.php:354 
+#: inc/quadro-widgets.php:451 inc/quadro-widgets.php:570
+msgid "Title:"
+msgstr ""
+
+#: inc/quadro-widgets.php:96
+msgid "Post Quantity:"
+msgstr ""
+
+#: inc/quadro-widgets.php:115
+msgid "Quadro Featured Post."
+msgstr ""
+
+#: inc/quadro-widgets.php:181
+msgid "Select Post:"
+msgstr ""
+
+#: inc/quadro-widgets.php:229
+msgid "Quadro Image Widget."
+msgstr ""
+
+#: inc/quadro-widgets.php:287 inc/quadro-widgets.php:462 
+#: inc/quadro-widgets.php:581
+msgid "Upload Image"
+msgstr ""
+
+#: inc/quadro-widgets.php:311
+msgid "Quadro Video Widget."
+msgstr ""
+
+#: inc/quadro-widgets.php:360
+msgid "Video Embed Url:"
+msgstr ""
+
+#: inc/quadro-widgets.php:379 inc/quadro-widgets.php:498
+msgid "Add your advertising shortcodes or banner images."
+msgstr ""
+
+#: inc/quadro-widgets.php:445 inc/quadro-widgets.php:564
+msgid "Ad Spots:"
+msgstr ""
+
+#: inc/quadro-widgets.php:447 inc/quadro-widgets.php:566
+msgid ""
+"Enter the number of desired ad spots, and click \"Save\" to refresh widget "
+"controls."
+msgstr ""
+
+#: inc/quadro-widgets.php:458 inc/quadro-widgets.php:577
+msgid "Image Ad Upload:"
+msgstr ""
+
+#: inc/quadro-widgets.php:466 inc/quadro-widgets.php:585
+msgid "Image Ad Link:"
+msgstr ""
+
+#: inc/quadro-widgets.php:468 inc/quadro-widgets.php:587
+msgid "Insert URL destination for your ad"
+msgstr ""
+
+#: inc/quadro-widgets.php:472 inc/quadro-widgets.php:591
+msgid "Image Ad Link Target:"
+msgstr ""
+
+#: inc/quadro-widgets.php:474 inc/quadro-widgets.php:593
+msgid "Enter _self or _blank"
+msgstr ""
+
+#: inc/quadro-widgets.php:478 inc/quadro-widgets.php:597
+msgid "Ad Shortcode:"
+msgstr ""
+
+#: inc/quadro-widgets.php:480 inc/quadro-widgets.php:599
+msgid "Paste here shortcode from your Ads Plugin (overrides image upload)"
+msgstr ""
+
+#: inc/quadro-woocommerce.php:263 inc/quadro-woocommerce.php:342
+msgid "You have no items in your cart."
+msgstr ""
+
+#: inc/quadro-woocommerce.php:294 inc/quadro-woocommerce.php:373
+msgid "Your Cart"
+msgstr ""
+
+#: inc/quadro-woocommerce.php:296 inc/quadro-woocommerce.php:375
+msgid "Cart Subtotal "
+msgstr ""
+
+#: inc/quadro-woocommerce.php:299 inc/quadro-woocommerce.php:299 
+#: inc/quadro-woocommerce.php:378 inc/quadro-woocommerce.php:378
+msgid "View Cart"
+msgstr ""
+
+#: inc/quadro-woocommerce.php:300 inc/quadro-woocommerce.php:300 
+#: inc/quadro-woocommerce.php:379 inc/quadro-woocommerce.php:379
+msgid "Checkout"
+msgstr ""
+
+#: inc/theme-functions.php:191
+msgid "Skip to content"
+msgstr ""
+
+#: inc/theme-functions.php:744
+msgid "Author Page Cover Image"
+msgstr ""
+
+#: inc/theme-functions.php:750
+msgid "Select file"
+msgstr ""
+
+#: inc/theme-functions.php:751
+msgid "Once you select the file, click \"Choose Image\"."
+msgstr ""
+
+#: inc/theme-functions.php:871
+msgid "Prev Item"
+msgstr ""
+
+#: inc/theme-functions.php:872
+msgid "Next Item"
+msgstr ""
+
+#: inc/getting-started/theme-faqs.php:11
+msgid "How do I register the theme?"
+msgstr ""
+
+#: inc/getting-started/theme-faqs.php:12 inc/getting-started/theme-faqs.php:27
+msgid "Where do I get support for "
+msgstr ""
+
+#: inc/getting-started/theme-faqs.php:13 inc/getting-started/theme-faqs.php:32
+msgid "How can I make the site look like the demo?"
+msgstr ""
+
+#: inc/getting-started/theme-faqs.php:14 inc/getting-started/theme-faqs.php:37
+msgid "Should I install all the recommended plugins?"
+msgstr ""
+
+#: inc/getting-started/theme-faqs.php:15 inc/getting-started/theme-faqs.php:42
+msgid "How do I get theme updates?"
+msgstr ""
+
+#: inc/getting-started/theme-faqs.php:16 inc/getting-started/theme-faqs.php:47
+msgid "I installed a demo pack but not every element got installed."
+msgstr ""
+
+#: inc/getting-started/theme-faqs.php:22
+msgid "How do I register the theme and activate the license?"
+msgstr ""
+
+#: inc/getting-started/theme-faqs.php:23
+msgid "To register the theme navigate to"
+msgstr ""
+
+#: inc/getting-started/theme-faqs.php:23
+msgid ""
+"enter your preferred details for the account and click on \"Register a "
+"purchased theme\". You will need to select the theme from a list and enter "
+"your purchase key, and that's about it. Once you do that you should see the "
+"theme appear on the \"Your Registered Items\" section. The only thing left "
+"to do is to enter your QuadroIdeas credentials on the General tab of the"
+msgstr ""
+
+#: inc/getting-started/theme-faqs.php:23
+msgid ""
+"page. You can click the \"Check Now\" button after you saved the options to "
+"make sure the license has been properly enabled for the theme."
+msgstr ""
+
+#: inc/getting-started/theme-faqs.php:28
+msgid ""
+"Found yourself in front of a tricky step you don't know how to solve? Jump "
+"over to our dedicated support forum at"
+msgstr ""
+
+#: inc/getting-started/theme-faqs.php:28
+msgid ""
+"where our support team will gladly assist you. Access is for licensed users "
+"only, so don't forget to register your theme first. Oh! And try to be as "
+"descriptive as you can when writing your question. Extra kudos for providing "
+"a link URL to your site. :)"
+msgstr ""
+
+#: inc/getting-started/theme-faqs.php:33
+msgid "To make your site look just like the theme's demo, navigate to"
+msgstr ""
+
+#: inc/getting-started/theme-faqs.php:33
+msgid ""
+"look for the \"Ready Made Sites Import\" option and follow the instructions. "
+"Be aware that this will import content to your site, as well as replace most "
+"of the theme options you might already set up."
+msgstr ""
+
+#: inc/getting-started/theme-faqs.php:38
+msgid ""
+"The only required plugin to work with this theme is the Quadro Portfolio "
+"plugin included in the theme package (and you can skip it's installation if "
+"you won't be using the Portfolio section). All the other plugins that you "
+"will find as \"Recommended\" are no more than that. They will improve or "
+"expand the functionality of the theme but you are free to install them as "
+"you whish."
+msgstr ""
+
+#: inc/getting-started/theme-faqs.php:43
+msgid ""
+"Once you register the theme and activate the license, you will get update "
+"notices at your WordPress Updates dashboard as you would do for any other "
+"theme or plugin. Just click the Update option when it is presented to you "
+"and theme will automatically update to the latest available version."
+msgstr ""
+
+#: inc/getting-started/theme-faqs.php:48
+msgid ""
+"Before you install a demo pack, please make sure that the relevant plugins "
+"(those that are in use on the demo pack you are about to install) are "
+"installed. If you install a demo pack that uses WooCommerce, for example, "
+"and you install it without the plugin being activated, the products won't "
+"get imported."
+msgstr ""
+
+#: inc/getting-started/theme-faqs.php:49
+msgid ""
+"Also, if you made already some demo pack imports, you may have some elements "
+"already in your database that won't get imported twice. Before attempting "
+"the import again, please make sure you have deleted those, and emptied your "
+"trash."
+msgstr ""
+
+#. Name of the theme
+msgid "Indigo"
+msgstr ""
+
+#. Description of the theme
+msgid "A slick multi-purpose corporate theme."
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://preview.artisanthemes.io/indigo"
+msgstr ""
+
+#. Author of the theme
+msgid "Artisan Themes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://artisanthemes.io"
+msgstr ""
